@@ -1,6 +1,6 @@
 .tools, .html, .css, .js, .structure {
     margin: 1em auto;
-    inline-size: 100%;
+    inline-size: 20em;
     border: 1px solid rgba(0,0,0,1);    
 
 }
