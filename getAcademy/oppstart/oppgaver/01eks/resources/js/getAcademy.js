@@ -28,8 +28,7 @@ function tools(arg)
         </li>
         <li>The browser <a href='https://www.google.com/intl/no/chrome/'>Google Chrome</a></li>
     </ul>`;
-    }
-
+}
 
 function html(arg)
 {
@@ -48,7 +47,7 @@ function html(arg)
                 <li><a href='https://www.w3schools.com/tags/default.asp'>W3School HTML References</a></li>
             </ul>
         </ul>`;
-    }
+}
     
 function css(arg)
 {
@@ -69,7 +68,7 @@ function css(arg)
             <li><a href='https://www.w3schools.com/cssref/default.asp'>W3Schools CSS References</a></li>
         </ul>`;
 
-    }
+}
     
 function js(arg)
 {
@@ -80,11 +79,16 @@ function js(arg)
             <li>There exists a <a href='https://www.w3schools.com/jsref/default.asp'>JavaScript tutorial at W3C</a>, but its recommended to follow this module.
         </ul>`;
 }
-    
+
 function structure(arg)
 {
+    //  Removes html content
     removeAll();
-    arg.children[1].innerHTML = /*HTML*/`
+
+    //  Add html content
+    console.log(arg.parentElement);
+    let parent = arg.parentElement;
+    parent.children[1].innerHTML = /*HTML*/`
     <div>
         <button onclick='prevImg(this)'>◀</button>
         <img src='resources/img/head1.png'>
@@ -100,8 +104,162 @@ function structure(arg)
         <img src='resources/img/legs1.png'>
         <button onclick='nextImg(this)'>▶</button>
     </div>`;
+    return;
 }
 
+function prevImg(arg)
+{
+
+    //  Initialize array
+
+    //  Initialize element
+    let parent = arg.parentElement.querySelector('img');
+
+    //  Ensure its correct image
+    if (parent.src.endsWith('head1.png'))
+    {
+        parent.alt = 'head4.png';
+        parent.src = 'resources/img/head4.png';
+    }
+    else if (parent.src.endsWith('head4.png'))
+    {
+        parent.alt = 'head3.png';
+        parent.src = 'resources/img/head3.png';
+    }
+    else if (parent.src.endsWith('head3.png'))
+    {
+        parent.alt = 'head2.png';
+        parent.src = 'resources/img/head2.png';
+    }
+    else if (parent.src.endsWith('head2.png'))
+    {
+        parent.alt = 'head1.png';
+        parent.src = 'resources/img/head1.png';
+    }
+    
+    //  Ensure the src attribute for body
+    if (parent.src.endsWith('body1.png'))
+        {
+            parent.alt = 'body4.png';
+            parent.src = 'resources/img/body4.png';
+        }
+        else if (parent.src.endsWith('body4.png'))
+        {
+            parent.alt = 'body3.png';
+            parent.src = 'resources/img/body3.png';
+        }
+        else if (parent.src.endsWith('body3.png'))
+        {
+            parent.alt = 'body2.png';
+            parent.src = 'resources/img/body2.png';
+        }
+        else if (parent.src.endsWith('body2.png'))
+        {
+            parent.alt = 'body1.png';
+            parent.src = 'resources/img/body1.png';
+        }
+    //  Ensure the src attribute for legs
+    if (parent.src.endsWith('legs1.png'))
+        {
+            parent.alt = 'legs4.png';
+            parent.src = 'resources/img/legs4.png';
+        }
+        else if (parent.src.endsWith('legs4.png'))
+        {
+            parent.alt = 'legs3.png';
+            parent.src = 'resources/img/legs3.png';
+        }
+        else if (parent.src.endsWith('legs3.png'))
+        {
+            parent.alt = 'legs2.png';
+            parent.src = 'resources/img/legs2.png';
+        }
+        else if (parent.src.endsWith('legs2.png'))
+        {
+            parent.alt = 'legs1.png';
+            parent.src = 'resources/img/legs1.png';
+        }
+        
+    return;
+
+}
+
+function nextImg(arg)
+{
+
+    //  Initialize element
+    let parent = arg.parentElement.querySelector('img');
+
+    //  Ensure its correct image
+    if (parent.src.endsWith('head1.png'))
+    {
+        parent.alt = 'head2.png';
+        parent.src = 'resources/img/head2.png';
+    }
+    else if (parent.src.endsWith('head2.png'))
+    {
+        parent.alt = 'head3.png';
+        parent.src = 'resources/img/head3.png';
+    }
+    else if (parent.src.endsWith('head3.png'))
+    {
+        parent.alt = 'head4.png';
+        parent.src = 'resources/img/head4.png';
+    }
+    else if (parent.src.endsWith('head4.png'))
+    {
+        parent.alt = 'head1.png';
+        parent.src = 'resources/img/head1.png';
+    }
+    
+    //  Ensure the src attribute for body
+    if (parent.src.endsWith('body1.png'))
+        {
+            parent.alt = 'body2.png';
+            parent.src = 'resources/img/body2.png';
+        }
+        else if (parent.src.endsWith('body2.png'))
+        {
+            parent.alt = 'body3.png';
+            parent.src = 'resources/img/body3.png';
+        }
+        else if (parent.src.endsWith('body3.png'))
+        {
+            parent.alt = 'body4.png';
+            parent.src = 'resources/img/body4.png';
+        }
+        else if (parent.src.endsWith('body4.png'))
+        {
+            parent.alt = 'body1.png';
+            parent.src = 'resources/img/body1.png';
+        }
+    //  Ensure the src attribute for legs
+    if (parent.src.endsWith('legs1.png'))
+        {
+            parent.alt = 'legs2.png';
+            parent.src = 'resources/img/legs2.png';
+        }
+        else if (parent.src.endsWith('legs2.png'))
+        {
+            parent.alt = 'legs3.png';
+            parent.src = 'resources/img/legs3.png';
+        }
+        else if (parent.src.endsWith('legs3.png'))
+        {
+            parent.alt = 'legs4.png';
+            parent.src = 'resources/img/legs4.png';
+        }
+        else if (parent.src.endsWith('legs4.png'))
+        {
+            parent.alt = 'legs1.png';
+            parent.src = 'resources/img/legs1.png';
+        }
+        
+    return;
+
+}
+
+// 
 function normal(){
 
     return;
@@ -119,18 +277,4 @@ function grid(){
     return;
 }
 
-function prevImg(arg)
-{
 
-    //  Fetch 
-    let parent = arg.parentElement;
-
-    parent.children[1].src = 'resources/img/head1.png';
-    console.log(parent, arg);
-}
-function nextImg(arg)
-{
-    let parent = arg.parentElement;
-    parent.children[1].src = 'resources/img/{$i}';
-    console.log(arg);
-}
