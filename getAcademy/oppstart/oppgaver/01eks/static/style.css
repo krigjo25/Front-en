@@ -1,11 +1,12 @@
 .tools, .html, .css, .js, .structure {
+    display: block;
     margin: 1em auto;
     inline-size: 20em;
-    border: 1px solid rgba(0,0,0,1);    
-
+    border: 1px solid rgba(0,0,0,1);
 }
 
 div.item {
+
     margin: 0px;
     background-color: rgba(218, 218, 218, 1);
 }
@@ -21,6 +22,7 @@ div.item {
     font-size: 16px;
     user-select: none;
     text-align: center;
+    
     color:rgba(255, 255, 255, 1);
     background-color: rgba(35, 65, 217,1);
 }
@@ -84,7 +86,6 @@ div.item {
 }
 
 .structure div {
-    display: flexbox;
     text-align: center;
 
 }

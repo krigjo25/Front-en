@@ -10,6 +10,10 @@ function removeAll()
 
     return;
 }
+function removeStyle()
+{
+
+}
 
 function tools(arg)
 {
@@ -261,19 +265,64 @@ function nextImg(arg)
 
 // 
 function normal(){
+    document.querySelector('head').innerHTML = /*HTML*/`
+    <style>
+        .tools, .html, .css, .js, .structure {
+            display: block;
+            margin: 1em auto;
+            inline-size: 20em;
+            border: 1px solid rgba(0,0,0,1);    
 
+        }
+    </style>
+    `;
     return;
 }
 
 function vertical(){
+    document.querySelector('head').innerHTML = /*HTML*/`
+    <style>
+        .tools, .html, .css, .js, .structure {
+            display: block;
+            margin: 1em auto;
+            inline-size: 20em;
+            border: 1px solid rgba(0,0,0,1);    
+
+        }
+    </style>
+    `;
     return;
 }
 
 function horizontal(){
+    document.querySelector('head').innerHTML = /*HTML*/`
+    <style>
+        .tools, .html, .css, .js, .structure {
+            display: inline-block;
+            margin: 1em auto;
+            inline-size: 20em;
+            border: 1px solid rgba(0,0,0,1);    
+
+        }
+    </style>
+    `;
     return;
 }
 
 function grid(){
+    document.querySelector('head').innerHTML = /*HTML*/`
+    <style>
+        .tools, .html, .css, .js, .structure {
+            display: grid;
+            grid-template-columns: 2fr;
+            grid-template-rows: 2fr;
+            margin: 1em;
+            inline-size: 50%;
+            border: 1px solid rgba(0,0,0,1);    
+
+        }
+    </style>
+    `;
     return;
 }
 
