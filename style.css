@@ -58,11 +58,3 @@ a.nav-link {
     grid-template-rows: 10em;
     grid-template-columns: 8em 8em 8em;
 }
-
-a.nav-link:hover {
-    
-}
-
-a.nav-link:focus {
-    
-}
