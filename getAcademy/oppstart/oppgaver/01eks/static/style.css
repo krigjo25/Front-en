@@ -5,6 +5,11 @@
     border: 1px solid rgba(0,0,0,1);
 }
 
+nav.menu {
+    display: block;
+    margin: 1em auto;
+    inline-size: 100%;
+}
 div.item {
 
     margin: 0px;
