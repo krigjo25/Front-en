@@ -263,16 +263,15 @@ function nextImg(arg)
 
 }
 
-// 
+// Styling the classes
 function normal(){
-    document.querySelector('head').innerHTML = /*HTML*/`
+    document.querySelector('head').innerHTML += /*HTML*/`
     <style>
         .tools, .html, .css, .js, .structure {
             display: block;
             margin: 1em auto;
             inline-size: 20em;
             border: 1px solid rgba(0,0,0,1);    
-
         }
     </style>
     `;
@@ -280,7 +279,7 @@ function normal(){
 }
 
 function vertical(){
-    document.querySelector('head').innerHTML = /*HTML*/`
+    document.querySelector('head').innerHTML += /*HTML*/`
     <style>
         .tools, .html, .css, .js, .structure {
             display: block;
@@ -291,38 +290,51 @@ function vertical(){
         }
     </style>
     `;
+
     return;
 }
 
 function horizontal(){
-    document.querySelector('head').innerHTML = /*HTML*/`
+    document.querySelector('head').innerHTML += /*HTML*/`
     <style>
         .tools, .html, .css, .js, .structure {
             display: inline-block;
-            margin: 1em auto;
-            inline-size: 20em;
-            border: 1px solid rgba(0,0,0,1);    
-
+            justify-content: center;
         }
+
     </style>
     `;
+
+    //  Adding a class .active
+    let classes = document.querySelectorAll('.tools.html.css.js.structure ');
+
+    for (cls of classes)
+    {
+        console.log(cls.children)
+    
+    }
     return;
 }
 
 function grid(){
-    document.querySelector('head').innerHTML = /*HTML*/`
+    document.querySelector('head').innerHTML += /*HTML*/`
     <style>
-        .tools, .html, .css, .js, .structure {
+        .grid-container {
             display: grid;
-            grid-template-columns: 2fr;
-            grid-template-rows: 2fr;
             margin: 1em;
-            inline-size: 50%;
-            border: 1px solid rgba(0,0,0,1);    
-
+            inline-size: 100%;
+            grid-column-gap: 1em;
+            grid-template-rows: 2fr;
+            grid-template-columns: 20em 20em; 
+        }
+        .tools, .html, .css, .js, .structure {
+            inline-size: 100%;
+            justify-content: center;
         }
     </style>
     `;
+
+    document.querySelector('main').classList.add('grid-container');
     return;
 }
 
