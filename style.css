@@ -19,9 +19,23 @@ main {
     inline-size: 100%;
 }
 
+article.grid-container {
+    grid-template-columns: 8em 8em 8em 8em;
+}
+
 nav > div {
     display: inline-block;
     margin-inline-start: 1em;
+}
+nav {
+    block-size: 4em;
+}
+
+nav ul.grid-container {
+    grid-column-gap: 3em;
+    list-style-type: none;
+    grid-template-rows: 1em;
+    
 }
 
 a.nav-link {
@@ -44,6 +58,7 @@ a.nav-link {
     grid-template-rows: 10em;
     grid-template-columns: 8em 8em 8em;
 }
+
 a.nav-link:hover {
     
 }
