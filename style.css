@@ -88,4 +88,9 @@ div.lor ul {
 div.lor li {
     margin: 0.3em 0;
     
-}'
+}
+
+img {
+    inline-size:100px;
+    block-size:100px;
+}

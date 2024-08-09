@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en/us">
+<html lang="en">
     <head>
         <meta charset='utf-8'>
-        <meta http-equiv='X-UA-Compatible' content='IE-edge'>
-        <meta name ="viewport" content="width=device-width" initial-scale = "1.0">
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name="viewport" content="initial-scale=1, width=device-width">
         <title>krigjo25 | Home</title>
         <link rel='stylesheet' href='style.css'>
     </head>
@@ -23,8 +23,8 @@
                     <a class='nav-link' href='#about-Kristoffer'>
                         <li>About Kristoffer</li>
                     </a>
-                    <a class='nav-link' href='#experiences'>
-                        <li>My experience</li>
+                    <a class='nav-link' href='#ekspertise'>
+                        <li>Ekspertise</li>
                     </a>
                     <a class='nav-link' href='#portefolio-projects'>
                         <li>Projects</li>
@@ -33,12 +33,11 @@
             </nav>
             <div class='profile'>
                 <h3>Profile</h3>
-                <img src='' alt='kristoffer.png' style="inline-size='100px; block-size:100px;">
-                <div class='tlf'>
-                    <i>TLF</i><a href='+4746652938'>+47 46 65 29 38</a>
-                </div>
-                <div class='E-mail'>
-                    <i>E-mail:</i><a href='mailto:krigjo25@outlook.com'> Mail me</a>
+                <div class='contact'>
+                    <img src='lib/img/kristoffer.png' alt='kristoffer.png'><br>
+                    <i>other:</i><a href=''> visit me</a><br>
+                    <i>Tlf :</i><a href="tel:+4746652938">+47 46 65 29 38</a><br>
+                    <i>E-mail:</i><a href='mailto:krigjo25@outlook.com'> Mail me</a><br>
                 </div>
             </div>
         </header>
@@ -76,7 +75,7 @@
                         </ul>
                     </div>
                     <div class='grid-item'>
-                        <h4>Spare time, what is that?</h4>
+                        <h4>Free time, what is that?</h4>
                         <p>
                             Besides dedicating my time to develop my skills with-in programming
                             i do the following activities:
@@ -89,7 +88,7 @@
                     </div>
                 </div>
             </article>
-            <section id='experience'>
+            <section id='ekspertise'>
                 <h2>Expertise</h2>
                 <h3>GetAcademy <i>-></i></h3>
                 <div class='wrap-container'>
@@ -137,10 +136,10 @@
                     <div class='grid-item'>
                         <h4>Retail</h4>
                             <ul>
-                                <a href='#'>
+                                <a href='https://sky.telia.no/s/325939fa6b48048441a8c03049650726a34' target='_blank'>
                                     <li>Plantasjen AS / GO AS</li>
                                 </a>
-                                <a href='#'>
+                                <a href='https://sky.telia.no/s/32586b70b3a7f384d1e8c4f98f69782afc1' target='_blank'>
                                     <li>Ingrids Glass Verksted AS</li>
                                 </a>
                             </ul>
@@ -148,10 +147,10 @@
                         <div class='grid-item'>
                             <h4>Industry</h4>
                             <ul>
-                                <a href='#'>
+                                <a href='https://sky.telia.no/s/325355a0697e3e349988ede64bac45a7046' target='_blank'>
                                     <li>Polyform AS</li>
                                 </a>
-                                <a href='#'>
+                                <a href='https://sky.telia.no/s/325279f4424f0074c9589af9a4a2f030b5c' target='_blank'>
                                     <li>Kløver Kjøtt AS</li>
                                 </a>
                             </ul>
@@ -181,6 +180,27 @@
             </section>     
         </main>
         <footer>
+            <form action="https://validator.w3.org/check" class="text-center" enctype="multipart/form-data" method="post" target="_blank">
+                <!-- https://validator.w3.org/ -->
+                <input name="doctype" type="hidden" value="HTML5">
+                <input name="fragment" type="hidden">
+                <input alt="Validate" src="resources/img/I_heart_validator.png" type="image"> 
+            </form>
         </footer>
+        <script>    
+            //  HTML Validator FROM W3C validation services
+            //  Adapted from https://stackoverflow.com/a/10162353
+            document.addEventListener('DOMContentLoaded', function() {
+                const html = '<!DOCTYPE ' + document.doctype.name +
+                    (document.doctype.publicId ? ' PUBLIC "' + document.doctype.publicId + '"' : '') +
+                    (!document.doctype.publicId && document.doctype.systemId ? ' SYSTEM' : '') +
+                    (document.doctype.systemId ? ' "' + document.doctype.systemId + '"' : '') +
+                    '>\n' + document.documentElement.outerHTML;
+
+                //  Checks for HTML validations
+                document.querySelector('form[action="https://validator.w3.org/check"] > input[name="fragment"]').value = html;
+
+                });
+        </script>
     </body>
 </html>
