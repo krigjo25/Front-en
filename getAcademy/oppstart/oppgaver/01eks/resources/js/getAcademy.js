@@ -5,6 +5,7 @@ function removeAll()
 
     for (item of items)
     {
+        //  Removes the innerHTML
         item.innerHTML = '';
     }
 
@@ -12,12 +13,26 @@ function removeAll()
 }
 function removeStyle()
 {
+    let styles = document.querySelectorAll('style');
+
+    //  Ensure the style.length is more than 1
+    if (styles.length > 1)
+
+    {    
+        //  Delete the tags
+        for (style of styles)
+        {
+            style.remove();
+        }
+    }
+    
 
 }
 
 function tools(arg)
 {
     removeAll();
+    
     arg.children[1].innerHTML = /*HTML*/`
     he most important tools to be used is:
     <ul>
@@ -265,6 +280,8 @@ function nextImg(arg)
 
 // Styling the classes
 function normal(){
+    removeStyle();
+
     document.querySelector('head').innerHTML += /*HTML*/`
     <style>
         .tools, .html, .css, .js, .structure {
@@ -273,12 +290,14 @@ function normal(){
             inline-size: 20em;
             border: 1px solid rgba(0,0,0,1);    
         }
-    </style>
-    `;
+    </style>`;
+    
     return;
 }
 
 function vertical(){
+    removeStyle();
+
     document.querySelector('head').innerHTML += /*HTML*/`
     <style>
         .tools, .html, .css, .js, .structure {
@@ -295,6 +314,9 @@ function vertical(){
 }
 
 function horizontal(){
+
+    removeStyle();
+
     document.querySelector('head').innerHTML += /*HTML*/`
     <style>
         .tools, .html, .css, .js, .structure {
@@ -317,6 +339,9 @@ function horizontal(){
 }
 
 function grid(){
+
+    removeStyle();
+
     document.querySelector('head').innerHTML += /*HTML*/`
     <style>
         .grid-container {
