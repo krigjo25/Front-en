@@ -39,23 +39,26 @@
         <main>
             <article id='about-kristoffer'>
                 <h2>About Kristoffer</h2>
+                <div class='profile-container'>
+                    <img src='lib/img/kristoffer.png' alt='kristoffer.png'>
+                    <caption>A caption message</caption>
+                    <span>
+                        <a href=''><i class="bi bi-instagram"></i>@krigjo25</a>
+                    </span><br>
+                    <span>
+                        <a href=''><i class="bi bi-linkedin"></i>@krigjo25</a>
+                    </span><br>
+                    <span>
+                        <a href=''><i class="bi bi-facebook"></i>@krigjo25</a>
+                    </span><br>
+                    <span>
+                        <a href=''><i class="bi bi-github"></i>@krigjo25</a>
+                    </span><br>
+                    <span>
+                        <a href='#contact-me'><i class="bi bi-mailbox"></i>Contact me</a>
+                    </span>
+                </div>
                 <div class='grid-container'>
-
-                    <div class='profile-item'>
-                        <img src='lib/img/kristoffer.png' alt='kristoffer.png'>
-                        <caption>A caption message</caption>
-                    </div>
-                    <div class='profile-item'>
-                        <span>
-                            <a href=''><i class="bi bi-instagram"></i> @krigjo25</a>
-                        </span><br>
-                        <span>
-                            <a href="tel:+4746652938"><i class="bi bi-phone"></i>Call me</a>
-                        </span><br>
-                        <span>
-                            <a href='mailto:krigjo25@outlook.com'><i class="bi bi-mailbox"></i> Mail me</a>
-                        </span>
-                    </div>
                     <div class='profile-item'>    
                         <p>
                             <span class='read-time'><i class="bi bi-stopwatch"></i></span>
@@ -65,8 +68,30 @@
                             Python and SQL, utilizing these languages for web
                         </p>
                     </div>
-                </div>
-                <div class='grid-container'>
+                    <div class='profile-item'>
+                        <div class='grid-item'>
+                            <h4>Retail</h4>
+                            <ul>
+                                <a href='https://sky.telia.no/s/325939fa6b48048441a8c03049650726a34' target='_blank'>
+                                    <li>Plantasjen AS / GO AS</li>
+                                </a>
+                                <a href='https://sky.telia.no/s/32586b70b3a7f384d1e8c4f98f69782afc1' target='_blank'>
+                                    <li>Ingrids Glass Verksted AS</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class='grid-item'>
+                            <h4>Industry</h4>
+                            <ul>
+                                <a href='https://sky.telia.no/s/325355a0697e3e349988ede64bac45a7046' target='_blank'>
+                                    <li>Polyform AS</li>
+                                </a>
+                                <a href='https://sky.telia.no/s/325279f4424f0074c9589af9a4a2f030b5c' target='_blank'>
+                                    <li>Kløver Kjøtt AS</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
                     <div class='grid-item'>
                         <h4>How i reconize my self</h4>
                         <ul>
@@ -77,7 +102,7 @@
                             <li>I learn by Doing, Failing and Succseeding</li>
                         </ul>
                     </div>
-                    <div class='grid-item'>
+                    <div class='profile-item'>
                         <h4>Reconizable Skills</h4>
                         <ul>
                             <li>Adaptable.</li>
@@ -90,7 +115,7 @@
                             <li>Resourceful</li>
                         </ul>
                     </div>
-                    <div class='grid-item'>
+                    <div class='profile-item'>
                         <h4>Free time, what is that?</h4>
                         <p>
                             Besides dedicating my time to develop my skills with-in programming
@@ -156,31 +181,6 @@
                         </div>
                     </div>
                 <a href='www.edx.org' target='_blank'> Link to School</a>
-                <h3 onclick=''>References <i class="bi bi-arrow-right-circle-fill"></i></h3>
-                <div class='lor'>
-                    <div class='grid-item'>
-                        <h4>Retail</h4>
-                            <ul>
-                                <a href='https://sky.telia.no/s/325939fa6b48048441a8c03049650726a34' target='_blank'>
-                                    <li>Plantasjen AS / GO AS</li>
-                                </a>
-                                <a href='https://sky.telia.no/s/32586b70b3a7f384d1e8c4f98f69782afc1' target='_blank'>
-                                    <li>Ingrids Glass Verksted AS</li>
-                                </a>
-                            </ul>
-                        </div>
-                        <div class='grid-item'>
-                            <h4>Industry</h4>
-                            <ul>
-                                <a href='https://sky.telia.no/s/325355a0697e3e349988ede64bac45a7046' target='_blank'>
-                                    <li>Polyform AS</li>
-                                </a>
-                                <a href='https://sky.telia.no/s/325279f4424f0074c9589af9a4a2f030b5c' target='_blank'>
-                                    <li>Kløver Kjøtt AS</li>
-                                </a>
-                            </ul>
-                        </div>
-                </div>
             </section> 
             <section id='portefolio-projects'>
                 <h2>Projects</h2>
@@ -229,6 +229,18 @@
             </section>     
         </main>
         <footer>
+            <h3> Contact me <h3>
+            <span>
+                <a href="tel:+4746652938"><i class="bi bi-phone"></i>Call me</a>
+            </span><br>
+            <form action='/' method='post'>
+                <label for='name'>Name:</label>
+                <input type='tex1t' placeholder='John Doe'>
+                <label for='e-mail'>E-mail:</label>
+                <input type='text' placeholder='jdoe@domain.com'>
+                <label for='message'>Send me a message !</label>
+                <input type='textarea' placeholder='A litte coffie talk..'>
+            </form>
             <form action="https://validator.w3.org/check" class="text-center" enctype="multipart/form-data" method="post" target="_blank">
                 <!-- https://validator.w3.org/ -->
                 <input name="doctype" type="hidden" value="HTML5">

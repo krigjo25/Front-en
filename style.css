@@ -92,20 +92,16 @@ div.lor {
     display: grid;
     column-gap: 2em;
     grid-template-columns: 33% 33% 33%;
-    border:none;
 
 
 }
 
 div.lor ul {
-    list-style-type: none;
-    border:none;
-    
+    list-style-type: none; 
 }
 
 div.lor li {
     margin: 0.3em 0; 
-    border:none; 
 }
 
 img {
@@ -130,7 +126,7 @@ img {
 .pp {
     flex-wrap: wrap;
     font-size: 1.5em;
-    block-size: 3.7em;
+    block-size: 3.79em;
     inline-size: 11em;
     margin-inline: 0.3em;
     display: inline-flex;
