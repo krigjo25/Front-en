@@ -1,27 +1,26 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 body {
     margin: auto 3em;
 }
 
-h2{
+h2 {
     text-align: center;
-    background-color:aliceblue;
 }
-h3 {
-    background-color:aliceblue;
-}
-
 h2, h3 {
     padding: 1em;
+    border: 1px solid black;
 }
 
-main {
+main, footer, header {
+    margin:1em;
     block-size: 100%;
     inline-size: 100%;
 }
 
-div.grid-container {
-    grid-template-rows: 17em;
-    grid-template-columns: 14em 14em 14em;
+nav {
+    block-size: 4em;
 }
 
 nav > div {
@@ -29,9 +28,7 @@ nav > div {
     margin-inline-start: 1em;
 }
 
-nav {
-    block-size: 4em;
-}
+
 
 nav ul.grid-container {
     grid-column-gap: 3em;
@@ -52,27 +49,25 @@ a.nav-link {
     background-color: white;
     border: 0.1em solid black;
 }
-section div.grid-container {
-    list-style-type: none;
-    column-gap: 1em;
-    grid-template-rows: 11em;
-    grid-template-columns: 14em 8em 8em;
-}
-.grid-container {
-    display: grid;
-    column-gap: 2em;
-    margin: 1em auto;
-    grid-template-rows: 10em;
-    grid-template-columns: 8em 8em 8em;
-}
 
-.wrap-container {
-    background-color: aliceblue;
-
-}
 div {
     margin: 1em auto;
+    inline-size: 100%;
 }
+div a {
+    text-decoration: none;
+    border-right: 1px groove grey;
+    padding:0.3em
+
+}
+div span {
+    margin: 0.3em;
+}
+
+div nav {
+    border:1px solid black;
+}
+
 div.lor {
     display: grid;
     column-gap: 2em;
@@ -80,17 +75,47 @@ div.lor {
     grid-template-columns: 14em 14em;
 
 }
+
 div.lor ul {
     list-style-type: none;
     
 }
 
 div.lor li {
-    margin: 0.3em 0;
-    
+    margin: 0.3em 0;  
 }
 
 img {
-    inline-size:100px;
-    block-size:100px;
+    inline-size: 100%;
+}
+
+.grid-container {
+    display: grid;
+    column-gap: 2em;
+    margin: 1em auto;
+    grid-template-rows: 100%;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.wrap-container {
+    background-color: aliceblue;
+}
+.profile-item {
+    inline-size: 100%;
+    font-size: 1.29em;
+}
+.pp {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    border:1px solid black;
+}
+
+.demo {
+    font-size: 1.2em;
+    position: relative;
+    top: -4em;
+    left: 3em;
 }

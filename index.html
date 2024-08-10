@@ -1,11 +1,15 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
     <head>
         <meta charset='utf-8'>
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <meta name="viewport" content="initial-scale=1, width=device-width">
-        <title>krigjo25 | Home</title>
+
+        <link rel="icon" type="image/x-icon" href="lib/img/favicon.ico">
+
         <link rel='stylesheet' href='style.css'>
+
+        <title>krigjo25 | Home</title>
     </head>
     <body>
         <header>
@@ -31,26 +35,38 @@
                     </a>
                 </ul>
             </nav>
-            <div class='profile'>
-                <h3>Profile</h3>
-                <div class='contact'>
-                    <img src='lib/img/kristoffer.png' alt='kristoffer.png'><br>
-                    <i>other:</i><a href=''> visit me</a><br>
-                    <i>Tlf :</i><a href="tel:+4746652938">+47 46 65 29 38</a><br>
-                    <i>E-mail:</i><a href='mailto:krigjo25@outlook.com'> Mail me</a><br>
-                </div>
-            </div>
-        </header>
-        <main> 
+        </header>   
+        <main>
             <article id='about-kristoffer'>
                 <h2>About Kristoffer</h2>
-                <p>
-                With a background in both customer service and
-                production, I have dedicated significant time to 
-                developing my programming skills. I specialize in
-                Python and SQL, utilizing these languages for web
-                application development and data analysis.</p>
-                <div  class='grid-container'>
+                <div class='grid-container'>
+
+                    <div class='profile-item'>
+                        <img src='lib/img/kristoffer.png' alt='kristoffer.png'>
+                        <caption>A caption message</caption>
+                    </div>
+                    <div class='profile-item'>
+                        <span>
+                            <a href=''><i class="bi bi-instagram"></i> @krigjo25</a>
+                        </span><br>
+                        <span>
+                            <a href="tel:+4746652938"><i class="bi bi-phone"></i>Call me</a>
+                        </span><br>
+                        <span>
+                            <a href='mailto:krigjo25@outlook.com'><i class="bi bi-mailbox"></i> Mail me</a>
+                        </span>
+                    </div>
+                    <div class='profile-item'>    
+                        <p>
+                            <span class='read-time'><i class="bi bi-stopwatch"></i></span>
+                            With a background in both customer service and
+                            production, I have dedicated significant time to 
+                            developing my programming skills. I specialize in
+                            Python and SQL, utilizing these languages for web
+                        </p>
+                    </div>
+                </div>
+                <div class='grid-container'>
                     <div class='grid-item'>
                         <h4>How i reconize my self</h4>
                         <ul>
@@ -90,48 +106,57 @@
             </article>
             <section id='ekspertise'>
                 <h2>Expertise</h2>
-                <h3>GetAcademy <i>-></i></h3>
-                <div class='wrap-container'>
+                <h3 onclick=''>GetAcademy <i class="bi bi-arrow-right-circle-fill"></i></h3>
                     <div class='grid-container'>
-                        <nav>
-                            <a class='grid-item' href='getAcademy/oppstart/index.html'> Emne 1: Oppstart
-                                <ul>
-                                    <li>front-end, key experise</li>
-                                </ul>
+                        <div>
+                            <h4>Start-IT</h4>
+                            <a href='getAcademy/oppstart/index.html'>
+                                <p>Emne 1: Oppstart</p>
                             </a>
-                        </nav>
-                        <nav>
-                            <a class='grid-item' href=''>Emne 2: IT-Utvikling
-                                <ul>
-                                    <li>key experise</li>
-                                </ul>
+                            <ul>
+                                <li>Keys</li>
+                                <li>Front-end</li>
+                            </ul>
+                            <a href=''> 
+                                <p>Emne 2: IT-Utvikling</p>
                             </a>
-                        </nav>
-                        <nav>
-                            <a class='grid-item' href=''>Emne 3: #C
-                                <ul>
-                                    <li>key experise</li>
-                                </ul>
+                            <ul>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                            <a href=''> 
+                                <p>Emne 3: #C</p>
                             </a>
-                        </nav>
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>GET-Prepeard</h4>
+                        </div>
+                        <div>
+                            <h4>GET-IT</h4>
+                        </div>
                     </div>
-                    <a href='www.edx.org' target='_blank'> Link to School</a>
+                <a href='https://getacademy.no/' target='_blank'> Link to School</a>
                 </div>
-                <h3>EDX <i>-></i></h3>
-                <div class='wrap-container'>
+                <h3 onclick=''>EDX <i class="bi bi-arrow-right-circle-fill"></i></h3>
                     <div class='grid-container'>
-                        <nav>
-                            <a class='grid-item' href='getAcademy/oppstart/index.html'>
-                                Introduction to CS
-                                <ul>
-                                    <li>C, SQL, front-end, Python</li>
-                                </ul>
+                        <div class ='edx-item'>
+                            <a href='getAcademy/oppstart/index.html'> 
+                                <h4>Introduction to CS</h4>
                             </a>
-                        </nav>
+                            <ul>
+                                <li>Python</li>
+                                <li>C, SQL</li>
+                                <li>Front-end</li>
+                            </ul>
+                        </div>
                     </div>
-                    <a href='www.edx.org' target='_blank'> Link to School</a>
-                </div>
-                <h3>References <i>></i></h3>
+                <a href='www.edx.org' target='_blank'> Link to School</a>
+                <h3 onclick=''>References <i class="bi bi-arrow-right-circle-fill"></i></h3>
                 <div class='lor'>
                     <div class='grid-item'>
                         <h4>Retail</h4>
@@ -159,24 +184,60 @@
             </section> 
             <section id='portefolio-projects'>
                 <h2>Projects</h2>
-                <h3>front-end <i>-></i></h3>
-                <nav>
-                    <ul class ='grid-container'>
-
-                        <a class='nav-link' href="#">
-                            <li><i class='js'>Case :</i> Demo</li>
-                            <a href=''><i>GitHub :</i>Demo</a>
-                        </a>
-                </nav>
-                <h3>back-end <i>-></i></h3>
-                                <nav>
-                    <ul class ='grid-container'>
-
-                        <a class='nav-link' href="#">
-                            <li><i class='js'>Case :</i> Demo</li>
-                            <a href=''><i>GitHub :</i>Demo</a>
-                        </a>
-                </nav>
+                <h3 onclick=''>front-end <i class="bi bi-arrow-right-circle-fill"></i></h3>
+                <div class ='grid-container'>
+                    <div>
+                        <div class='pp'>
+                            <a href='' target='_blank'>
+                                <span>
+                                    <i class="bi bi-globe"></i>
+                                </span>
+                            </a>
+                            <a href='' target='_blank'>
+                                <span>
+                                    <i class="bi bi-github"></i>
+                                </span>
+                            </a>
+                            
+                        </div> 
+                    <span class='demo'>WA: CS50 Birthdays</span><br>
+                    </div>
+                    <div>
+                        <div class='pp'>
+                            <a href='' target='_blank'>
+                                <span>
+                                    <i class="bi bi-globe"></i>
+                                </span>
+                            </a>
+                            <a href='' target='_blank'>
+                                <span>
+                                    <i class="bi bi-github"></i>
+                                </span>
+                            </a>
+                            
+                        </div> 
+                    <span class='demo'>WA: CS50-Finance</span><br>
+                    </div>
+                </div>
+                <h3 onclick=''>back-end <i class="bi bi-arrow-right-circle-fill"></i></h3>
+                <div class ='grid-container'>
+                    <div>
+                        <div class='pp'>
+                            <a href='https://github.com/krigjo25/python/tree/main/Terminal%20projects/Games' target='_blank'>
+                                <span>
+                                    <i class="bi bi-github"></i>
+                                </span>
+                            </a>
+                            <a href='https://youtu.be/c7YFzrb2-VU'>
+                                <span>
+                                    <i class="bi bi-youtube"></i>
+                            </span>    
+                            </a>
+                            
+                        </div> 
+                    <span class='demo'> Cli: IntGames</span><br>
+                    </div>
+                </div>
             </section>     
         </main>
         <footer>
@@ -184,7 +245,7 @@
                 <!-- https://validator.w3.org/ -->
                 <input name="doctype" type="hidden" value="HTML5">
                 <input name="fragment" type="hidden">
-                <input alt="Validate" src="resources/img/I_heart_validator.png" type="image"> 
+                <input alt="Validate" src="lib/img/I_heart_validator.png" type="image"> 
             </form>
         </footer>
         <script>    
