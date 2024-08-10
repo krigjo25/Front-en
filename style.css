@@ -54,7 +54,7 @@ div {
     margin: 1em auto;
     inline-size: 100%;
 }
-div a {
+ div.pp a {
     text-decoration: none;
     border-right: 1px groove grey;
     padding:0.3em
@@ -71,18 +71,21 @@ div nav {
 div.lor {
     display: grid;
     column-gap: 2em;
-    grid-template-rows: 7em;
-    grid-template-columns: 14em 14em;
+    grid-template-columns: 33% 33% 33%;
+    border:none;
+
 
 }
 
 div.lor ul {
     list-style-type: none;
+    border:none;
     
 }
 
 div.lor li {
-    margin: 0.3em 0;  
+    margin: 0.3em 0; 
+    border:none; 
 }
 
 img {
