@@ -144,3 +144,14 @@ img {
     margin-inline: 1em;
     position: relative;
 }
+
+.py, .js, .db, .c, .cplus, .shark,.up{
+    top: 0.7em;
+    right: 0.3em;
+    font-size: 2em;
+    inline-size: 1em;
+    position: relative;
+    display: inline-block;
+}
+
+                            
