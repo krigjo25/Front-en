@@ -1,5 +1,6 @@
 
 body {
+    font-size: 1em;
     margin: auto 3em;
 }
 
@@ -11,8 +12,18 @@ h2, h3 {
     border: 1px solid black;
 }
 
+.edx-item h4 {
+    padding: 1em;
+    font-size: 1.5em;
+    border: 1px solid black;
+}
+.edx-item ul{
+    font-size: 1.25em;
+}
+
 main, footer, header {
-    margin:1em;
+    margin: 1em;
+    padding-block: 2em;
     block-size: 100%;
     inline-size: 100%;
 }
@@ -26,7 +37,15 @@ nav > div {
     margin-inline-start: 1em;
 }
 
+p {
+    font-size: 1.5em;
+}
 
+
+span a {
+    color: black;
+    text-decoration: none;
+}
 
 nav ul.grid-container {
     grid-column-gap: 3em;
@@ -40,7 +59,6 @@ a.nav-link {
     margin: 0.25em;
     font-size: 1em;
     color: inherit;
-    inline-size: 100%;
     text-decoration: none;
     padding-block-end: 2em;
     margin-inline-start: 1em;
@@ -62,6 +80,12 @@ div {
 
 div span {
     margin: 0.3em;
+}
+div.profile-item span {
+    margin:1em;
+    font-size: 1.5em;
+    text-align: center;
+    
 }
 
 div nav {
@@ -89,13 +113,16 @@ img {
 
 .grid-container {
     display: grid;
-    column-gap: 2em;
+    column-gap: 15em;
     margin: 1em auto;
-    grid-template-rows: 100%;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 33% 33%;
+}
+#expertise .grid-container {
+    column-gap: 0cap;
+    grid-template-columns: 16em 16em 16em;
+    
 }
 .profile-item {
-    inline-size: 100%;
     font-size: 1.29em;
 }
 .pp {
@@ -103,12 +130,15 @@ img {
     font-size: 1.5em;
     block-size: 3.79em;
     inline-size: 11.9em;
-    margin-inline: 0.3em;
     display: inline-flex;
     align-items: flex-start;
     border: 1px solid black;
     flex-direction: column-reverse;
     
+}
+.pp:nth-child(even)
+{
+    margin-inline-start: 3em;
 }
 
 .pp > span {
