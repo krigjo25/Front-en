@@ -114,8 +114,9 @@ img {
 }
 
 .demo {
-    font-size: 1.2em;
-    position: relative;
     top: -4em;
     left: 3em;
+    font-size: 1.2em;
+    user-select: none;
+    position: relative;
 }
