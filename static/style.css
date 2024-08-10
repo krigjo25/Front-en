@@ -1,24 +1,4 @@
 
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
-
-i.bi-youtube {
-    color:red;
-}
-i.bi-github {
-    color:grey;
-}
-i.bi-globe {
-    color:black;
-}
-i.bi-instagram {
-    color:black;
-}
-i.bi-phone {
-    color:black;
-}
-i.bi-mailbox {
-    color:black;
-}
 body {
     margin: auto 3em;
 }
@@ -93,7 +73,6 @@ div.lor {
     column-gap: 2em;
     grid-template-columns: 33% 33% 33%;
 
-
 }
 
 div.lor ul {
@@ -115,10 +94,6 @@ img {
     grid-template-rows: 100%;
     grid-template-columns: 33% 33% 33%;
 }
-
-.wrap-container {
-    background-color: aliceblue;
-}
 .profile-item {
     inline-size: 100%;
     font-size: 1.29em;
@@ -127,7 +102,7 @@ img {
     flex-wrap: wrap;
     font-size: 1.5em;
     block-size: 3.79em;
-    inline-size: 11em;
+    inline-size: 11.9em;
     margin-inline: 0.3em;
     display: inline-flex;
     align-items: flex-start;
@@ -145,7 +120,7 @@ img {
     position: relative;
 }
 
-.py, .js, .db, .c, .cplus, .shark,.up{
+.py, .js, .db, .c, .cplus, .shark, .up{
     top: 0.7em;
     right: 0.3em;
     font-size: 2em;
@@ -153,5 +128,3 @@ img {
     position: relative;
     display: inline-block;
 }
-
-                            
