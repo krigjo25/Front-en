@@ -1,6 +1,24 @@
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
+i.bi-youtube {
+    color:red;
+}
+i.bi-github {
+    color:grey;
+}
+i.bi-globe {
+    color:black;
+}
+i.bi-instagram {
+    color:black;
+}
+i.bi-phone {
+    color:black;
+}
+i.bi-mailbox {
+    color:black;
+}
 body {
     margin: auto 3em;
 }
@@ -55,11 +73,13 @@ div {
     inline-size: 100%;
 }
  div.pp a {
+    padding: 0.3em;
     text-decoration: none;
-    border-right: 1px groove grey;
-    padding:0.3em
-
+    margin-inline-end: 3px;
+    margin-block-start: 1px;
+    border: 1px groove grey;
 }
+
 div span {
     margin: 0.3em;
 }
@@ -108,18 +128,21 @@ img {
     font-size: 1.29em;
 }
 .pp {
-    display: flex;
     flex-wrap: wrap;
+    inline-size: 11em;
     font-size: 1.5em;
+    display: inline-flex;
     align-items: flex-start;
+    border: 1px solid black;
     flex-direction: column-reverse;
-    border:1px solid black;
+    block-size: 3.7em;
 }
 
-.demo {
-    top: -4em;
-    left: 3em;
-    font-size: 1.2em;
+.pp > span {
+    right: 1em;
+    bottom: 1em; 
     user-select: none;
+    font-weight: bold;
+    margin-inline: 1em;
     position: relative;
 }
