@@ -101,6 +101,19 @@ img {
     inline-size: 100%;
 }
 
+.profile-container {
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: space-between;
+
+}
+
+.profile-container span {
+    font-size: 6vw;
+}
 .grid-container {
     display: grid;
     column-gap: 15em;
@@ -122,7 +135,10 @@ img {
     display: inline-block;
     margin-inline-start: 0.09em;
 }
-
+.py span {
+    margin: 0.3;
+    font-size: 1em;
+}
 .wrapper-container
 {
     display: flex;

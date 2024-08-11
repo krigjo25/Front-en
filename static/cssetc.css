@@ -18,7 +18,8 @@
 
 .pp > span {
     right: 1em;
-    bottom: 1em; 
+    bottom: 1em;
+    font-size: 1em;
     user-select: none;
     font-weight: bold;
     margin-inline: 1em;

@@ -1,20 +1,23 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 i.bi-youtube {
-    color:red;
+    color:rgba(120, 6, 6, 1);
 }
 i.bi-github {
     color:grey;
 }
 i.bi-globe {
-    color:black;
+    color:rgba(0, 0, 0, 1);
 }
 i.bi-instagram {
-    color:black;
+    background-color: linear-gradient(to top right, rgba(255,223,158), rgba(255, 194, 115, 1), rgba(229, 105, 105, 1), rgba(193, 85, 139, 1), rgba(138, 73, 161, 1));
 }
 i.bi-phone {
-    color:black;
+    color:rgba(0, 0, 0, 1);
 }
 i.bi-mailbox {
-    color:black;
+    color: rgba(0, 0, 0, 1);
+}
+i.bi-linkedin {
+    color:rgba(0, 0, 128, 1);
 }
