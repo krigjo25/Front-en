@@ -8,16 +8,12 @@
     block-size: 3.79em;
     inline-size: 11.9em;
     display: inline-flex;
-    margin-inline-end: 3em;
+    margin-inline-end: 0.83em;
     align-items: flex-start;
     border: 1px solid black;
     flex-direction: column-reverse;
 
     
-}
-.pp:nth-child(even)
-{
-    margin-inline-start: 3em;
 }
 
 .pp > span {
