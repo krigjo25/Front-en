@@ -51,14 +51,11 @@ span a {
 }
 
 a.nav-link {
-    padding: 1em;
-    margin: 0.25em;
     font-size: 1em;
     color: inherit;
+    text-align: center;
     text-decoration: none;
-    padding-block-end: 2em;
-    margin-inline-start: 1em;
-    background-color: white;
+    padding-block-end: 1em;
     border: 0.1em solid black;
 }
 
