@@ -1,7 +1,6 @@
 
 body {
     font-size: 1em;
-    margin: auto 3em;
 }
 
 h2 {
@@ -20,12 +19,14 @@ h2, h3 {
 .edx-item ul{
     font-size: 1.25em;
 }
+header {
+    block-size: 100%;
 
-main, footer, header {
+}
+main, footer {
     margin: 1em;
     padding-block: 2em;
     block-size: 100%;
-    inline-size: 100%;
 }
 
 nav {
@@ -81,12 +82,6 @@ div {
 div span {
     margin: 0.3em;
 }
-div.profile-item span {
-    margin:1em;
-    font-size: 1.5em;
-    text-align: center;
-    
-}
 
 div nav {
     border:1px solid black;
@@ -118,36 +113,12 @@ img {
     grid-template-columns: 33% 33%;
 }
 #expertise .grid-container {
-    column-gap: 0cap;
+    column-gap: 0;
     grid-template-columns: 16em 16em 16em;
     
 }
-.profile-item {
+div.profile-item {
     font-size: 1.29em;
-}
-.pp {
-    flex-wrap: wrap;
-    font-size: 1.5em;
-    block-size: 3.79em;
-    inline-size: 11.9em;
-    display: inline-flex;
-    align-items: flex-start;
-    border: 1px solid black;
-    flex-direction: column-reverse;
-    
-}
-.pp:nth-child(even)
-{
-    margin-inline-start: 3em;
-}
-
-.pp > span {
-    right: 1em;
-    bottom: 1em; 
-    user-select: none;
-    font-weight: bold;
-    margin-inline: 1em;
-    position: relative;
 }
 
 .py, .js, .db, .c, .cplus, .shark, .up{
@@ -157,4 +128,14 @@ img {
     inline-size: 1em;
     position: relative;
     display: inline-block;
+}
+.wrapper-container
+{
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    block-size: 3.79em;
+    inline-size: 11.9em;
+    display: inline-flex;
+    align-items: flex-start;
+    flex-direction: column-reverse;
 }

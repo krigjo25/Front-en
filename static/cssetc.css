@@ -1,0 +1,30 @@
+.cnn-ctr {
+    text-align: center;
+}
+
+.pp {
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    block-size: 3.79em;
+    inline-size: 11.9em;
+    display: inline-flex;
+    margin-inline-end: 3em;
+    align-items: flex-start;
+    border: 1px solid black;
+    flex-direction: column-reverse;
+
+    
+}
+.pp:nth-child(even)
+{
+    margin-inline-start: 3em;
+}
+
+.pp > span {
+    right: 1em;
+    bottom: 1em; 
+    user-select: none;
+    font-weight: bold;
+    margin-inline: 1em;
+    position: relative;
+}
