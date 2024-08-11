@@ -10,7 +10,10 @@ i.bi-globe {
     color:rgba(0, 0, 0, 1);
 }
 i.bi-instagram {
-    background-color: linear-gradient(to top right, rgba(255,223,158), rgba(255, 194, 115, 1), rgba(229, 105, 105, 1), rgba(193, 85, 139, 1), rgba(138, 73, 161, 1));
+    border-radius: 25%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to top right,rgb(255,223,158), rgb(255, 194, 115), rgba(229, 105, 105, 1), rgb(193, 85, 139), rgba(138, 73, 161, 1));  
 }
 i.bi-phone {
     color:rgba(0, 0, 0, 1);
