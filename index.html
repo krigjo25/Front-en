@@ -5,6 +5,7 @@
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <meta name="viewport" content="initial-scale=1, width=device-width">
         <link rel="icon" type="image/x-icon" href="lib/img/favicon.ico">
+        <link rel='stylesheet' href='static/forms.css'>
         <link rel='stylesheet' href='static/cssetc.css'>
         <link rel='stylesheet' href='static/light-dark.css'>
         <link rel='stylesheet' href='static/btrapicons.css'>
@@ -86,7 +87,7 @@
                     <div class='wrapper-container'>
                         <div class='wrap-item'>
                             <h4>Start-IT</h4>
-                            <a href='pp/getAcademy/oppstart/index.html'>
+                            <a href='lib/pp/getAcademy/oppstart/index.html'>
                                 <h5>Emne 1: Start-up</h5>
                             </a>
                             <ul>
@@ -228,22 +229,24 @@
                     </a>
                     <span class='demo'>CLI: WordGame</span><br>
                 </div>
-
             </section>     
         </main>
-        <footer>
-            <h3>Contact me</h3>
-            <span>
-                <a href="tel:+4746652938"><i class="bi bi-phone"></i>Call me</a>
-            </span><br>
-            <form action='/' method='post'>
-                <label for='name'>Name:</label>
-                <input type='text' name='name' placeholder='John Doe' required>
-                <label for='e-mail'>E-mail:</label>
-                <input type='text' name='email' placeholder='jdoe@domain.com' required>
-                <label for='message'>Send me a message !</label>
-                <textarea name='message' placeholder='A litte coffie talk..'>
-            </form>
+        <footer id='#contact-me'>
+            <div class ='container'>
+                <h2>Contact me</h2>
+                <form action='/' method='post'>
+                    <label for='name'>Name:</label>
+                    <i class ='bi bi-person'></i>
+                    <input type='text' name='name' placeholder='John Doe' required>
+                    <label for='e-mail'>E-mail:</label>
+                    <i class="bi bi-envelope-fill"></i>
+                    <input type='text' name='email' placeholder='jdoe@domain.com' required>
+                    <label for='message'>Send me a message !</label>
+                    <i class="bi bi-file-earmark-richtext"></i>
+                    <textarea name='message' placeholder='A litte coffie talk..' required></textarea>
+                    <input type='submit' class='bi bi-mailbox' value='Sumbit message'>
+                </form>
+            </div>
             <form action="https://validator.w3.org/check" class="text-center" enctype="multipart/form-data" method="post" target="_blank">
                 <!-- https://validator.w3.org/ -->
                 <input name="doctype" type="hidden" value="HTML5">

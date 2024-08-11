@@ -24,3 +24,8 @@ i.bi-mailbox {
 i.bi-linkedin {
     color:rgba(0, 0, 128, 1);
 }
+i.bi-person, i.bi-envelope-fill, i.bi-file-eramark-richtext {
+    padding: 10px;
+    text-align: center;
+    min-inline-size: 50px;
+}
