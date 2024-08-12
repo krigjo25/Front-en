@@ -5,6 +5,10 @@
 		}
 	],
 	"settings": {
-		"gitdoc.enabled": true
+		"gitdoc.enabled": true,
+		"editor.semanticTokenColorCustomizations": {
+
+		},
+		"editor.semanticHighlighting.enabled": true
 	}
 }
