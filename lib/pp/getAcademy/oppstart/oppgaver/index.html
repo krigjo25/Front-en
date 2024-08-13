@@ -4,16 +4,17 @@
         <meta charset='utf-8'>
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <meta name="viewport" content="initial-scale=1, width=device-width">
-        <link rel='stylesheet' href='static/light-dark-theme.css'>
         <link rel='stylesheet' href='static/style.css'>
+        <link rel='stylesheet' href='static/light-dark-theme.css'>
+        <link rel='stylesheet' href="static/traffic-lights.css">
 
-        <script src ='resources/js/stop-watch.js'></script>
-        <script src ='resources/js/traffic-lights.js'></script>
-        <script src ='resources/js/light-dark-theme.js'></script>
+        <script src='resources/js/stop-watch.js'></script>
+        <script src='resources/js/traffic-lights.js'></script>
+        <script src='resources/js/light-dark-theme.js'></script>
         <title>krigjo25 | Oppgaver</title>    
 
     </head>
-    <body class="bg-light">
+    <body class="bg-light"  onload="lightTimer()">
         <header>
             <h1>
                 <span>GetAcademy Start-up</span>
@@ -91,12 +92,13 @@
             </section>
             <section class ='traffic-lights'>
                 <h2> Oppgave 2.4: Traffikk lys</h2>
-                <div class='red'></div>
-                <div class='yellow'></div>
+                <div class='active-light red'></div>
+                <div class='orange'></div>
                 <div class='green'></div>
-                <button onclick="changeLights(this)">Red</button>
-                <button onclick="changeLights(this)">Yellow</button>
-                <button onclick="changeLights(this)">Green</button>
+                <button onclick="activeLight('green', 'orange', 'rød', 'rød')">stop</button>
+                <button onclick="activeLight('grønn','grønn', 'rød', 'orange')">ready</button>
+                <button onclick="activeLight('rød', 'orange', 'grønn', 'grønn')">go</button>
+                <button onclick="activeLight('rød', 'grønn', 'orange', 'orange')">clear</button>
             </section>
         </main>
         <main></main>
