@@ -2,13 +2,17 @@
 
 Team Oppgave 1 - IkkeMeny
 
-Beskrivelse: Implementer en funksjon som lar brukeren legge til varer i handlelisten. Eksempel: Brukeren kan legge til varen "Melk" med antall "2" i listen. 
+##  Description
+Implementer en funksjon som lar brukeren legge til varer i handlelisten. Eksempel: Brukeren kan legge til varen "Melk" med antall "2" i listen. 
 
 
-Mål: Sørg for at systemet håndterer både navn på varen og eventuelt antall/enhet.
+##  Purpose of the project
+Sørg for at systemet håndterer både navn på varen og eventuelt antall/enhet.
 
 
-Fjerne varer Beskrivelse: Lag en funksjon som lar brukeren fjerne varer fra handlelisten. Eksempel: Hvis "Brød" ikke lenger er nødvendig, skal brukeren kunne fjerne denne varen fra listen. Mål: Brukeren skal ha kontroll over hvilke varer som er i handlelisten, og kunne fjerne dem enkelt.
+### Remove cart 
+
+Lag en funksjon som lar brukeren fjerne varer fra handlelisten. Eksempel: Hvis "Brød" ikke lenger er nødvendig, skal brukeren kunne fjerne denne varen fra listen. Mål: Brukeren skal ha kontroll over hvilke varer som er i handlelisten, og kunne fjerne dem enkelt.
 
 
 Opprette en digital handleliste/vogn Beskrivelse: Lag en struktur (for eksempel en liste, dictionary, eller klasse) for å representere handlelisten/vognen. Mål: Dette er selve fundamentet for prosjektet. Her vil dere holde oversikt over alle varer som er lagt til.
