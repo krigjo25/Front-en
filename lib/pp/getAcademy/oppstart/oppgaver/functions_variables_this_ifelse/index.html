@@ -9,12 +9,13 @@
         <link rel="stylesheet" href="static/light-dark-theme.css">
         <link rel="stylesheet" href="static/traffic-lights.css">
 
+        <script src="lib/js/lib.js"></script>
         <script src="lib/js/stop-watch.js"></script>
-        <script src="resources/js/light-blob.js"></script>
+        <script src="lib/js/light-blob.js"></script>
         <script src="lib/js/virtual-keyboard.js"></script>
         <script src="lib/js/text-manipulation.js"></script>
-        <script src="resources/js/traffic-lights.js"></script>
-        <script src="resources/js/light-dark-theme.js"></script>
+        <script src="lib/js/traffic-lights.js"></script>
+        <script src="lib/js/light-dark-theme.js"></script>
         
         <title>krigjo25 | Function, Variables, This And If/Else</title>    
 
@@ -24,21 +25,13 @@
             <a href="../../index.html">
                 <h1>Assignments Home</h1>
             </a>
-            <nav class ="menu">
-                <button class="normal" onclick="normal()">normal</button>
-                <button class="vertical" onclick="vertical()">Vertical</button>
-                <button class="horizontal" onclick="horizontal()">Horizontal</button>
-                <button class="grid" onclick="grid()">Grid</button>
-                <button class ="toggle-light-dark-theme"onclick="changeBackground()">Toogle to Dark Theme</button>
-            </nav>
-            
         </header>   
         <main>
-            <section>
-                <h2> Oppgave 4: Funksjoner, variabler, this og if/else</h2>               
-                
+            <h2> Assignment 4: Functions, Variables, This And If/Else</h2>
+
+            <section>               
                 <h3>Asignment 4.1 : Text manipulation</h3> 
-                <div class="fvtie">
+                <div id="fvtie">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempus maximus rhoncus.
                     Phasellus gravida enim ex. Mauris eu aliquet tellus. Nam augue tortor, bibendum eget
                     erat sit amet, facilisis lacinia mi. Aenean sollicitudin consequat metus eu elementum.
@@ -54,18 +47,18 @@
 
             </section>
             <section>
-                <h2> Oppgave 4.2: More of variables</h2>
-                <div class="r"></div>
-                <div class="g"></div>
-                <div class="b"></div>
+                <h2> Assignment 4.2: More Of Variables</h2>
+                <div id="r"></div>
+                <div id="g"></div>
+                <div id="b"></div>
                 
-                <h3 onclick="changeBG(this)">red</h3>
-                <h3 onclick="changeBG(this)">green</h3>
-                <h3 onclick="changeBG(this)">blue</h3>
+                <button onclick="changeBG()">red</button>
+                <button onclick="changeBG()">green</button>
+                <button onclick="changeBG()">blue</button>
 
             </section>
             <section class="stop-watch">
-                <h2> Oppgave 4.3: Stoppe klokken</h2>
+                <h2> ASsignment 4.3: StopWatch</h2>
                 <div class ="timer">00:00:00:00</div>
                 <button onclick="startTimer()">start</button>
                 <button onclick="intervalTimer()">Interval</button>
@@ -73,7 +66,7 @@
 
             </section>
             <section class ="traffic-lights">
-                <h2> Oppgave 4.4: Traffikk lys x</h2>
+                <h2> Assignment 4.4: Traffic LightsX</h2>
                 <div class="active-light red"></div>
                 <div class="orange"></div>
                 <div class="green"></div>
@@ -83,7 +76,7 @@
                 <button onclick="activeLight('red', 'green', 'orange', 'orange')">clear</button>
             </section>
             <section class ="keyboad">
-                <h2> Oppgave 4.5: Keyboard</h2>
+                <h2> Assignment 4.5: KeyboardX</h2>
                 <div class="keyboard-container">
                     <div class="keyboard-item">
                     <button onclick="changeThis(this)">Esc</button>
@@ -199,7 +192,7 @@
                 <div id="input-container"></div>
             </section>
             <section class ="ligth-blob">
-                <h2> Oppgave 4.6: Light Blob</h2>
+                <h2> Assignment 4.6: Light Blob</h2>
                 <div id="light-blob" class="off">
                 </div>
                 <button id ="light-switch" onclick="lightBlob()">Turn on</button>
