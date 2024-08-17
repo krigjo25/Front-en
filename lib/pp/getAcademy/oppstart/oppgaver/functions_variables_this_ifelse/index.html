@@ -6,6 +6,7 @@
         <meta name="viewport" content="initial-scale=1, width=device-width">
 
         <link rel="stylesheet" href="static/style.css">
+        <link rel="stylesheet" href="static/light-blob.css">
         <link rel="stylesheet" href="static/light-dark-theme.css">
         <link rel="stylesheet" href="static/traffic-lights.css">
 
@@ -212,13 +213,16 @@
                             Your points : 0
                         </div>
                         <div id="game">
+                            <button onclick="main()">Start Game</button>
                         </div>
-                        <button onclick="main()">Generate Random integers</button><button onclick="submit(this)">submit</button>
+                        <div id="game-message">
+
+                        </div>
                 </div>
                 </section>
                 <section>
                     <h3>Assignment 4.9 Format the string</h3>
-
+                    <button id="to-upper" onclick="upperCase(this.id, this.innerHTML)">kristoffer eier dette</button>
 
                 </section>
             </section>
