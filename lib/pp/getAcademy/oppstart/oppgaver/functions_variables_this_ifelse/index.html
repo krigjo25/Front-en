@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset='utf-8'>
-        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="initial-scale=1, width=device-width">
-        <link rel='stylesheet' href='static/style.css'>
-        <link rel='stylesheet' href='static/light-dark-theme.css'>
-        <link rel='stylesheet' href="static/traffic-lights.css">
 
-        <script src='resources/js/virtual-keyboard.js'></script>
-        <script src='resources/js/stop-watch.js'></script>
-        <script src='resources/js/traffic-lights.js'></script>
-        <script src='resources/js/light-dark-theme.js'></script>
-        <script src='resources/js/light-blob.js'></script>
-        <title>krigjo25 | Oppgaver</title>    
+        <link rel="stylesheet" href="static/style.css">
+        <link rel="stylesheet" href="static/light-dark-theme.css">
+        <link rel="stylesheet" href="static/traffic-lights.css">
+
+        <script src="lib/js/stop-watch.js"></script>
+        <script src="resources/js/light-blob.js"></script>
+        <script src="lib/js/virtual-keyboard.js"></script>
+        <script src="lib/js/text-manipulation.js"></script>
+        <script src="resources/js/traffic-lights.js"></script>
+        <script src="resources/js/light-dark-theme.js"></script>
+        
+        <title>krigjo25 | Function, Variables, This And If/Else</title>    
 
     </head>
     <body class="bg-light"  onload="lightTimer()">
         <header>
-            <h1>
-                <span>GetAcademy Start-up</span>
-            </h1>
-            <nav class ='menu'>
-                <button class='normal' onclick='normal()'>normal</button>
-                <button class='vertical' onclick='vertical()'>Vertical</button>
-                <button class='horizontal' onclick='horizontal()'>Horizontal</button>
-                <button class='grid' onclick='grid()'>Grid</button>
-                <button class ='toggle-light-dark-theme'onclick="changeBackground()">Toogle to Dark Theme</button>
+            <a href="../../index.html">
+                <h1>Assignments Home</h1>
+            </a>
+            <nav class ="menu">
+                <button class="normal" onclick="normal()">normal</button>
+                <button class="vertical" onclick="vertical()">Vertical</button>
+                <button class="horizontal" onclick="horizontal()">Horizontal</button>
+                <button class="grid" onclick="grid()">Grid</button>
+                <button class ="toggle-light-dark-theme"onclick="changeBackground()">Toogle to Dark Theme</button>
             </nav>
             
         </header>   
         <main>
             <section>
-                <h2> Oppgave 4.1: Funksjoner, variabler, this og if/else</h2>               
+                <h2> Oppgave 4: Funksjoner, variabler, this og if/else</h2>               
                 
-                <h3>Text manipulation</h3> 
-                <div class='fvtie'>
+                <h3>Asignment 4.1 : Text manipulation</h3> 
+                <div class="fvtie">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempus maximus rhoncus.
                     Phasellus gravida enim ex. Mauris eu aliquet tellus. Nam augue tortor, bibendum eget
                     erat sit amet, facilisis lacinia mi. Aenean sollicitudin consequat metus eu elementum.
@@ -51,37 +54,37 @@
 
             </section>
             <section>
-                <h2> Oppgave 2.2: mer om variabler</h2>
+                <h2> Oppgave 4.2: More of variables</h2>
                 <div class="r"></div>
                 <div class="g"></div>
                 <div class="b"></div>
                 
-                <h3 onclick="changeBG(this)">r</h3>
-                <h3 onclick="changeBG(this)">g</h3>
-                <h3 onclick="changeBG(this)">b</h3>
+                <h3 onclick="changeBG(this)">red</h3>
+                <h3 onclick="changeBG(this)">green</h3>
+                <h3 onclick="changeBG(this)">blue</h3>
 
             </section>
             <section class="stop-watch">
-                <h2> Oppgave 2.3: Stoppe klokken</h2>
-                <div class ='timer'>00:00:00:00</div>
+                <h2> Oppgave 4.3: Stoppe klokken</h2>
+                <div class ="timer">00:00:00:00</div>
                 <button onclick="startTimer()">start</button>
                 <button onclick="intervalTimer()">Interval</button>
                 <button onclick="stopTimer()">stop</button>
 
             </section>
-            <section class ='traffic-lights'>
-                <h2> Oppgave 2.4: Traffikk lys</h2>
-                <div class='active-light red'></div>
-                <div class='orange'></div>
-                <div class='green'></div>
-                <button onclick="activeLight('green', 'orange', 'rød', 'rød')">stop</button>
-                <button onclick="activeLight('grønn','grønn', 'rød', 'orange')">ready</button>
-                <button onclick="activeLight('rød', 'orange', 'grønn', 'grønn')">go</button>
-                <button onclick="activeLight('rød', 'grønn', 'orange', 'orange')">clear</button>
+            <section class ="traffic-lights">
+                <h2> Oppgave 4.4: Traffikk lys x</h2>
+                <div class="active-light red"></div>
+                <div class="orange"></div>
+                <div class="green"></div>
+                <button onclick="activeLight('green', 'orange', 'red', 'red')">stop</button>
+                <button onclick="activeLight('green', 'green', 'red', 'orange')">ready</button>
+                <button onclick="activeLight('red', 'orange', 'green', 'green')">go</button>
+                <button onclick="activeLight('red', 'green', 'orange', 'orange')">clear</button>
             </section>
-            <section class ='keyboad'>
-                <h2> Oppgave 2.5: Keyboard</h2>
-                <div class='keyboard-container'>
+            <section class ="keyboad">
+                <h2> Oppgave 4.5: Keyboard</h2>
+                <div class="keyboard-container">
                     <div class="keyboard-item">
                     <button onclick="changeThis(this)">Esc</button>
                     <button onclick="changeThis(this)">F1</button>
@@ -193,18 +196,22 @@
                         </div>
                     </div>
                 </div>
+                <div id="input-container"></div>
             </section>
-            <section class ='ligth-blob'>
-                <h2> Oppgave 2.6: Lyspæra</h2>
+            <section class ="ligth-blob">
+                <h2> Oppgave 4.6: Light Blob</h2>
                 <div id="light-blob" class="off">
                 </div>
-                <button id ='light-switch' onclick="lightBlob()">Turn on</button>
+                <button id ="light-switch" onclick="lightBlob()">Turn on</button>
             </section>
-            <section class ='return-value'>
-                <h2> Oppgave 2.7: A function with return value</h2>
+            <section class ="return-value">
+                <h2>Function with return value</h2>
+                <h3>Assignment 4.7: Can you return?</h3>
+                <div id="return-this"></div>
+                <h3>Assignment 4.8 Croccodile-game</h3>
+                <div id="Croccodile-game"></div>
+
             </section>
         </main>
-
-        <script src ='resources/js/getAcademy.js'></script>
     </body>
 </html>
