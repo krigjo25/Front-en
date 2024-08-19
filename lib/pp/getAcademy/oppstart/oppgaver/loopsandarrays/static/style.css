@@ -1,0 +1,17 @@
+table 
+{
+    inline-size: 100vh;
+}
+tr, td 
+{
+    padding: 1vh;
+    text-align: center;
+    border: 1px groove black;
+    
+}
+
+
+td:hover:nth-child(2) 
+{
+    background-color: rgba(255, 255, 127, 1);
+}
