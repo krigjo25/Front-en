@@ -28,3 +28,24 @@ input[type=text]{
     block-size: 1em;
     inline-size: 1em;
 }
+
+section 
+{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+div
+{
+    inline-size: 70vh;
+}
+
+div.keyboard-item .interval
+{
+    inline-size:154vh;
+}
+
+#stop-watch p
+{
+    display: inline-flex;
+}

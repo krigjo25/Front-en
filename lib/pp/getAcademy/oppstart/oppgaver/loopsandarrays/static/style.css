@@ -1,6 +1,6 @@
 table 
 {
-    inline-size: 100vh;
+    inline-size: 67vh;
 }
 tr, td 
 {
@@ -11,7 +11,19 @@ tr, td
 }
 
 
-td:hover:nth-child(2) 
+td:nth-child(2) 
 {
     background-color: rgba(255, 255, 127, 1);
+}
+
+section 
+{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+div
+{
+    flex-direction: column;
+    inline-size: 70vh;
 }
