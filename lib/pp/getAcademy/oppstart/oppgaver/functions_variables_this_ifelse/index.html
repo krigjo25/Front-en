@@ -15,7 +15,7 @@
         <script src="lib/js/light-blob.js"></script>
         <script src="lib/js/virtual-keyboard.js"></script>
         <script src="lib/js/text-manipulation.js"></script>
-        <script src="lib/js/traffic-lights.js"></script>
+        <script src="lib/js/mvc-traffic-lights.js"></script>
         <script src="lib/js/light-dark-theme.js"></script>
         <script src="lib/js/return-something.js"></script>
         <script src="lib/js/crocodile-game.js"></script>
@@ -23,7 +23,7 @@
         <title>krigjo25 | Function, Variables, This And If/Else</title>    
 
     </head>
-    <body class="bg-light"  onload="lightTimer()">
+    <body class="bg-light" onload="trafficLights('activeateYellow()', 'red', 'grey', 'grey')">
         <header>
             <a href="../../index.html">
                 <h1>Assignments Home</h1>
@@ -72,16 +72,10 @@
                     <button onclick="stopTimer()">stop</button>
                 </div>
             </section>
-            <section class ="traffic-lights">
-                <div>
-                    <h2> Assignment 4.4: Traffic LightsX</h2>
-                    <div class="active-light red"></div>
-                    <div class="orange"></div>
-                    <div class="green"></div>
-                    <button onclick="activeLight('green', 'orange', 'red', 'red')">stop</button>
-                    <button onclick="activeLight('green', 'green', 'red', 'orange')">ready</button>
-                    <button onclick="activeLight('red', 'orange', 'green', 'green')">go</button>
-                    <button onclick="activeLight('red', 'green', 'orange', 'orange')">clear</button>
+
+            <section class ="traffic-lights" >
+                <h2> Assignment 4.4: Traffic Lights</h2>
+                <div id="app">
                 </div>
             </section>
             <section class ="keyboad">
