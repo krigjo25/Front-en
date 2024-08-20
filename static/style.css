@@ -74,7 +74,8 @@ div span {
     margin: 0.3em;
 }
 
-div nav {
+div nav 
+{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -84,10 +85,11 @@ div nav {
 
 }
 
-nav div h2.h2 {
-    position: absolute;
-    top: 47vh;
+nav div h2.h2 
+{
+    top: 42vh;
     right: 88vh;
+    position: absolute;
 }
 
 div.lor {

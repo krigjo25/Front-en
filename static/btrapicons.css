@@ -74,9 +74,10 @@ i.bi-person, i.bi-envelope-fill, i.bi-file-eramark-richtext {
 div.bi-getacademy:hover
 {
     background: #FF9A00;
+    background: linear-gradient(to right, #FF9A00 0%, #FF7400 50%, #FF4D00 50%, #CF1512 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(to right, #FF9A00 0%, #FF7400 50%, #FF4D00 50%, #CF1512 100%);
+    
 }
 
