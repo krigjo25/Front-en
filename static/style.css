@@ -1,14 +1,37 @@
 
-body {
-    font-size: 1em;
+body 
+{
+    color: rgb(40,40,40);
+    font-size: 16px;
+    box-sizing: border-box;
 }
 
-h2 {
-    text-align: center;
+header {
+    block-size: 100%;
+
 }
+header, section, article main, footer {
+    margin: 1em;
+    padding-block: 2em;
+    block-size: 100%;
+}
+
+h2 
+{
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgb(66, 124, 174);
+}
+
+h3
+{
+    
+    inline-size: 20vh;
+}
+
 h2, h3 {
     padding: 1em;
-    border: 1px solid black;
+    margin: auto;
 }
 
 .edx-item h4 {
@@ -18,27 +41,6 @@ h2, h3 {
 }
 .edx-item ul{
     font-size: 1.25em;
-}
-header {
-    block-size: 100%;
-
-}
-main, footer {
-    margin: 1em;
-    padding-block: 2em;
-    block-size: 100%;
-}
-nav ul.grid-container {
-    grid-column-gap: 1em;
-    list-style-type: none;
-    max-inline-size: 35em;
-    padding-inline-start: 0;
-    grid-template-columns: 33% 33% 33%;
-}
-
-nav > div {
-    display: inline-block;
-    margin-inline-start: 1em;
 }
 
 p {
@@ -59,10 +61,8 @@ a.nav-link {
     border: 0.1em solid black;
 }
 
-div {
-    margin: 1em auto;
-}
- div.pp a {
+div.pp a 
+{
     padding: 0.3em;
     text-decoration: none;
     margin-inline-end: 3px;
@@ -75,7 +75,19 @@ div span {
 }
 
 div nav {
-    border:1px solid black;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    inline-size: 40em;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+nav div h2.h2 {
+    position: absolute;
+    top: 47vh;
+    right: 88vh;
 }
 
 div.lor {
@@ -92,33 +104,19 @@ div.lor ul {
 div.lor li {
     margin: 0.3em 0; 
 }
-
-div.profile-item {
-    font-size: 1.29em;
+img 
+{
+    block-size: 100%;
+    inline-size: 40vh;
+    border-radius: 12%;
 }
 
-img {
-    inline-size: 100%;
-}
-
-.profile-container {
-    padding: 1em;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    align-content: stretch;
-    justify-content: space-between;
-
-}
-
-.profile-container span {
-    font-size: 6vw;
-}
 .grid-container {
     display: grid;
     column-gap: 15em;
     margin: 1em auto;
     grid-template-columns: 33% 33%;
+    
 }
 #expertise .grid-container {
     column-gap: 0;
@@ -127,8 +125,8 @@ img {
 }
 
 .py, .js, .db, .c, .cplus, .shark, .up{
-    top: 0.7em;
-    right: 0.3em;
+    bottom: 2vh;
+    right: 2vh;
     font-size: 2em;
     inline-size: 1em;
     position: relative;
@@ -139,6 +137,7 @@ img {
     margin: 0.3;
     font-size: 1em;
 }
+
 .wrapper-container
 {
     display: flex;
@@ -146,4 +145,26 @@ img {
     font-size: 1.5em;
     align-items: stretch;
     max-inline-size: 100%;
+}
+
+h3 {
+    display: inherit;
+
+}
+div.siztion {
+    font-size: 3vh;
+    text-align: center;
+    inline-size: 100%;
+    display: flex;
+    background-color: rgb(51, 117, 173);
+}
+div.btn
+{
+    padding: 1em;
+    cursor:pointer;
+    font-size: 3vh;
+    display: inherit;
+    font-weight: bold;
+    inline-size: 100%;
+    justify-content: space-around;
 }

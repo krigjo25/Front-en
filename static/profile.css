@@ -1,0 +1,58 @@
+div.profile-item {
+    font-size: 1.29em;
+}
+
+div#profile-wrapper
+{
+    margin-block: 1em;
+    border-radius: 2em;
+    background-color: #2e6ea6;
+    
+}
+#profile-wrapper {
+    display:flex;
+    align-items: stretch;
+}
+
+.profile-bar 
+{
+    padding: 1em;
+    inline-size: 10vh;
+    border-right: 1px groove black;
+}
+.profile-bar:hover {
+    background-color: rgb(51, 117, 173);
+}
+
+.profile-bar span {
+    font-size: 6vh;
+}
+.btn-links
+{
+    font-size: 2vh;
+    inline-size: 24vh;
+    margin-block: auto;
+    text-align: center;
+    border-radius: 1vh;
+    margin-inline-start: 1em;
+    color: rgb(166, 120, 46);
+    background-color: #296395;
+}
+.btn-links:hover
+{
+    background-color: rgb(66, 124, 174);
+}
+.btn-links a:link, .demo a:visited
+{
+    color : rgb(166, 120, 46);
+    text-decoration: none;
+    
+}
+.btn-links a:link:hover
+{
+    color : black;
+}
+.btn-links:active
+{
+    background-color:#0c416e;
+}
