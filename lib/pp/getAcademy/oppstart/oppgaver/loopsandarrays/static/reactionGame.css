@@ -1,0 +1,18 @@
+main
+{
+    display: flex;
+}
+
+.off 
+{
+    block-size: 10vh;
+    inline-size: 10vh;
+    border-radius: 50%;
+    background-color: rgb(45, 45, 45);
+
+
+}
+.on
+{
+    background-color: yellow;
+}
