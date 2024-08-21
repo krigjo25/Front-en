@@ -1,4 +1,9 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@font-face
+{
+    font-family: python;
+    src: url(../lib/fonts/Flux_Regular/Flux_Regular.otf);
+}
 
 i.bi-youtube {
     color:rgba(120, 6, 6, 1);
@@ -19,7 +24,6 @@ i.bi-github:active
 {
     color: rgb(45, 45, 45);
 }
-
 
 i.bi-instagram 
 {
@@ -81,3 +85,7 @@ div.bi-getacademy:hover
     
 }
 
+div.bi-python, .bi-c, .bi-js, .bi-db
+{
+    font-family: python;
+}

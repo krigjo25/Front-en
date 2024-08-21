@@ -4,20 +4,24 @@ div.profile-item {
 
 div#profile-wrapper
 {
-    margin-block: 1em;
     border-radius: 2em;
-    background-color: #2e6ea6;
     
 }
-#profile-wrapper {
+#profile-wrapper 
+{
     display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     align-items: stretch;
 }
 
 .profile-bar 
 {
     padding: 1em;
+    display: flex;
     inline-size: 10vh;
+    flex-direction: column;
+    justify-content: center;
     border-right: 1px groove black;
 }
 .profile-bar:hover {
@@ -29,8 +33,9 @@ div#profile-wrapper
 }
 .btn-links
 {
-    font-size: 2vh;
-    inline-size: 24vh;
+    padding: 1em;
+    font-size: 1em;
+    inline-size: 12em;
     margin-block: auto;
     text-align: center;
     border-radius: 1vh;

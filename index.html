@@ -11,8 +11,8 @@
         <link rel='stylesheet' href='static/cssetc.css'>
         <link rel='stylesheet' href='static/style.css'>
         <link rel='stylesheet' href='static/profile.css'>
-        <link rel='stylesheet' href='static/light-dark.css'>
         <link rel='stylesheet' href='static/btrapicons.css'>
+
         <title>krigjo25 | Home</title>
     </head>
     <body>
@@ -21,7 +21,7 @@
                 <h1>
                     <span>Creative</span>
                     <span>Mind</span>
-                    <span>&amp;</span>
+                    <span>with</span>
                     <span>Logical</span>
                     <span>Ways</span>
                 </h1>
@@ -30,7 +30,6 @@
         </header>   
         <main>
             <article id='about-kristoffer'>
-                <h2 id='#about-kristoffer'>About Kristoffer</h2>
                 <div id ='profile-wrapper'>
                     <div>
                         <img src='lib/img/kristoffer.png' alt='kristoffer.png'>
@@ -76,47 +75,22 @@
                 <h2>Specialization</h2>
                 <div class="siztion">
                     <div class="btn bi-getacademy" onclick="specialization(this)">GetAcademy</div>
-
                     <div class="btn bi-harvardx" onclick="specialization(this)">HarvardX</div>
                 </div>
                 <div id="siztion-item">
-
                 </div>
             </section> 
-            <section id='portefolio-projects'>
+            <section id='full-stack'>
                 <h2>Full-Stack Solutions</h2>
                 <div class="siztion">
-                    <div class="btn" onclick=''>JS <i class="bi bi-arrow-right-circle-fill"></i></div>
-                    <div class="btn" onclick=''>C <i class="bi bi-arrow-right-circle-fill"></i></div>
-                    <div class="btn" onclick=''>C++ <i class="bi bi-arrow-right-circle-fill"></i></div>
-                    <div class="btn" onclick=''>C# <i class="bi bi-arrow-right-circle-fill"></i></div>
-                    <div class="btn" onclick=''>Python <i class="bi bi-arrow-right-circle-fill"></i></div>
-                    <div class="btn" onclick=''>Database <i class="bi bi-arrow-right-circle-fill"></i></div>
+                    <div class="bi-js btn" onclick=''>JS <i class="bi bi-arrow-right-circle-fill"></i></div>
+                    <div class="bi-c btn" onclick=''>C <i class="bi bi-arrow-right-circle-fill"></i></div>
+                    <div class="bi-c+ btn" onclick=''>C++ <i class="bi bi-arrow-right-circle-fill"></i></div>
+                    <div class="bi-c# btn" onclick=''>C# <i class="bi bi-arrow-right-circle-fill"></i></div>
+                    <div class="bi-python btn" onclick=''>Python <i class="bi bi-arrow-right-circle-fill"></i></div>
+                    <div class="bi-db btn" onclick=''>Database <i class="bi bi-arrow-right-circle-fill"></i></div>
             </section>     
         </main>
-        <footer id='#contact-me'>
-            <div class ='container'>
-                <h2>Contact me</h2>
-                <form action='/' method='post'>
-                    <label for='name'>Name:</label>
-                    <i class ='bi bi-person'></i>
-                    <input type='text' name='name' placeholder='John Doe' required>
-                    <label for='e-mail'>E-mail:</label>
-                    <i class="bi bi-envelope-fill"></i>
-                    <input type='text' name='email' placeholder='jdoe@domain.com' required>
-                    <label for='message'>Send me a message !</label>
-                    <i class="bi bi-file-earmark-richtext"></i>
-                    <textarea name='message' placeholder='A litte coffie talk..' required></textarea>
-                    <input type='submit' class='bi bi-mailbox' value='Sumbit message'>
-                </form>
-            </div>
-            <form action="https://validator.w3.org/check" class="text-center" enctype="multipart/form-data" method="post" target="_blank">
-                <!-- https://validator.w3.org/ -->
-                <input name="doctype" type="hidden" value="HTML5">
-                <input name="fragment" type="hidden">
-                <input alt="Validate" src="lib/img/I_heart_validator.png" type="image"> 
-            </form>
-        </footer>
         <script>    
             //  HTML Validator FROM W3C validation services
             //  Adapted from https://stackoverflow.com/a/10162353
