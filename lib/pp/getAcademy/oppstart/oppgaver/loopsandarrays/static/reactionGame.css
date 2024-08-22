@@ -1,6 +1,11 @@
-main
+main, section
 {
     display: flex;
+    flex-wrap: wrap;
+}
+main
+{
+    flex-direction: column;
 }
 
 .off, .on
@@ -16,4 +21,7 @@ main
 .on
 {
     background-color: yellow;
+}
+.time {
+    padding: 1em;
 }
