@@ -1,51 +1,44 @@
+input[type=text], .b, .g, .r {
+  block-size: 1em;
+  inline-size: 1em;
+}
+
+.b, .g, .r {
+  border-radius: 10em;
+}
+
 .item ul {
-    margin:0;
+  margin: 0;
 }
 
 .r {
-    block-size: 1em;
-    inline-size: 1em;
-    border-radius: 10em;
-    border: 1px solid red;
-    background-color: red;
+  border: 1px solid red;
+  background-color: red;
 }
+
 .g {
-    block-size: 1em;
-    inline-size: 1em;
-    border-radius: 10em;
-    border: 1px solid green;
-    background-color: green;
+  border: 1px solid green;
+  background-color: green;
 }
+
 .b {
-    block-size: 1em;
-    inline-size: 1em;
-    border-radius: 10em;
-    border: 1px solid blue;
-    background-color: blue;
+  border: 1px solid blue;
+  background-color: blue;
 }
 
-input[type=text]{
-    block-size: 1em;
-    inline-size: 1em;
+section {
+  display: inline-flex;
+  flex-direction: column;
 }
 
-section 
-{
-    display: inline-flex;
-    flex-direction: column;
+div {
+  inline-size: 70vh;
 }
 
-div
-{
-    inline-size: 70vh;
+div .keyboard-item .interval {
+  inline-size: 154vh;
 }
 
-div.keyboard-item .interval
-{
-    inline-size:154vh;
-}
-
-#stop-watch p
-{
-    display: inline-flex;
-}
+#stop-watch p {
+  display: inline-flex;
+}/*# sourceMappingURL=style.css.map */
