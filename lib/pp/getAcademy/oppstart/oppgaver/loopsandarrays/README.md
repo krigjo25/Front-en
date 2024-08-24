@@ -12,8 +12,6 @@ Created the project as a team collebration for GetAcademy
 
 #### bag of items
 
-#### email regex
-
 Created a bag which 
 
 **Demo**: [Bags of items](https://krigjo25.github.io/front-end/lib/pp/getAcademy/oppstart/oppgaver/loopsandarrays/bag-of-items.html)
@@ -28,6 +26,8 @@ Created a bag which
 
 **Project Sumary**
 - Understanding of the complexity of using For loops with lists
+
+#### email regex
 
 #### Multiplication table
 
