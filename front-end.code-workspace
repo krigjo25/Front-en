@@ -4,5 +4,11 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveshare.openSharedServers": true,
+		"liveServer.settings.showOnStatusbar": true,
+		"liveServer.settings.AdvanceCustomBrowserCmdLine": "fish, bash, powershell",
+		"workbench.externalBrowser": "chrome",
+		"liveServer.settings.CustomBrowser": "chrome"
+	}
 }
