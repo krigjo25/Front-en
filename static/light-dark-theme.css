@@ -1,9 +1,9 @@
 .bg-light {
-    color: rgb(40, 40, 40);
-    background-color: rgba(245, 245, 245, 1);  
+  color: rgb(40, 40, 40);
+  background-color: rgb(245, 245, 245);
 }
 
 .bg-dark {
-    color: rgba(245, 245, 245, 1);
-    background-color: rgba(40, 40, 40, 1);  
-}
+  color: rgb(245, 245, 245);
+  background-color: rgb(40, 40, 40);
+}/*# sourceMappingURL=light-dark-theme.css.map */

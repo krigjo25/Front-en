@@ -1,71 +1,80 @@
-#tools, #html, #css, #js, #structure {
-    display: block;
-    margin: 1em;
-    inline-size: 20em;
-    border: 1px solid rgba(0,0,0,1);
+#structure-container .structure-item, #js-container .js-item, #css-container .css-item, #html-container .html-item, #tools-container .tools-item {
+  padding: 1vh;
+  background-color: rgb(218, 218, 218);
 }
 
-nav.menu {
-    display: block;
-    margin: 1em auto;
-    inline-size: 100%;
+#structure-container, #js-container, #css-container, #html-container, #tools-container {
+  margin: 1vh;
+  cursor: pointer;
+  inline-size: 20em;
+  border: 1px solid rgb(0, 0, 0);
 }
-div.item {
-
-    margin: 0px;
-    background-color: rgba(218, 218, 218, 1);
+#structure-container h2, #js-container h2, #css-container h2, #html-container h2, #tools-container h2 {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  text-align: center;
+  color: rgb(254, 254, 254);
 }
 
+nav .menu {
+  display: block;
+  margin: 1em auto;
+  inline-size: 100%;
+}
+
+div {
+  margin: 0px;
+  background-color: rgb(218, 218, 218);
+}
 .item ul {
-    margin:0;
+  margin: 0;
 }
 
-#tools h2, #html h2, #css h2, #js h2, #structure h2 {
-    margin: 0;
-    padding: 1em;
-    font-size: 1em;
-    display: block;
-    cursor: pointer;
-    user-select: none;
-    text-align: center;
-    color:rgba(255, 255, 255, 1);
+#tools-container {
+  background-color: rgb(35, 65, 217);
+}
+#html-container {
+  background-color: rgb(117, 217, 35);
+}
+#css-container {
+  background-color: rgb(217, 80, 35);
+}
+#css-container a:link {
+  color: rgb(59, 64, 89);
+}
+#js-container {
+  background-color: rgb(59, 64, 89);
+}
+#js-container a {
+  color: rgb(217, 80, 35);
+}
+#structure-container {
+  background-color: rgb(35, 65, 217);
+}
+.normal {
+  margin: 0;
+  padding: 1em;
+  font-size: 1em;
+  display: block;
+  cursor: pointer;
+}
+.vertical {
+  display: block;
+  margin: 1em auto;
+  inline-size: 59vh;
 }
 
-#tools h2 { 
-    background-color: rgba(35, 65, 217,1);
+.horizontal {
+  display: flex;
+  justify-content: center;
 }
 
-#html h2 {
-    background-color: rgba(117, 217, 35, 1);
-}
-
-#html a {
-    color: rgba(133, 82, 65,1);
-}
-
-
-#css h2 {
-    background-color: rgba(217, 80, 35,1);
-}
-
-#css a:link {
-    color: rgba(59, 64, 89,1);
-}
-
-
-#js h2 {
-    background-color: rgba(59, 64, 89, 1);
-}
-
-#js a {
-    color: rgba(217, 80, 35,1);
-}
-
-#structure h2 {
-    background-color: rgba(35, 65, 217,1);
-}
-
-#structure div {
-    text-align: center;
-
-}
+.grid-container {
+  display: grid;
+  margin: 1em;
+  inline-size: 100%;
+  grid-column-gap: 1em;
+  grid-template-rows: 2fr;
+  grid-template-columns: 20em 20em;
+}/*# sourceMappingURL=style.css.map */

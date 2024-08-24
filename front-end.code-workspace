@@ -9,6 +9,17 @@
 		"liveServer.settings.showOnStatusbar": true,
 		"liveServer.settings.AdvanceCustomBrowserCmdLine": "fish, bash, powershell",
 		"workbench.externalBrowser": "chrome",
-		"liveServer.settings.CustomBrowser": "chrome"
+		"liveServer.settings.CustomBrowser": "chrome",
+		"files.autoSave": "onFocusChange",
+		"liveSassCompile.settings.watchOnLaunch": true,
+		"liveSassCompile.settings.formats": [
+			
+			{
+				"format": "expanded",
+				"extensionName": ".css",
+				"savePath": null,
+				"savePathReplacementPairs": null
+			}
+		]
 	}
 }

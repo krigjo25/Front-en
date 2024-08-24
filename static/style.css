@@ -1,178 +1,83 @@
-
-body 
-{
-    
-    font-size: 16px;
-    color: rgb(40,40,40);
-    box-sizing: border-box;
+@import "https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto+Condensed:wght@700&display=swap";
+html::-webkit-scrollbar {
+  display: none;
 }
 
-header {
-    block-size: 100%;
-
-}
-header, section, article main, footer {
-    padding-block: 2em;
-    block-size: 100%;
-}
-
-h2 
-{
-    text-align: center;
-    border-radius: 12px;
-    
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 98vh;
+  width: 98vw;
+  font-family: "Orbitron", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 32px;
 }
 
-h3
-{
-    
-    inline-size: 20vh;
+.opposingPokemon {
+  margin-left: 50%;
 }
 
-h2, h3 {
-    padding: 1em;
-    margin: auto;
+button {
+  height: 100px;
+  width: 100px;
 }
 
-.edx-item h4 {
-    padding: 1em;
-    font-size: 1.5em;
-    border: 1px solid black;
-}
-.edx-item ul{
-    font-size: 1.25em;
+.buttonContainer {
+  width: 200px;
+  display: flex;
+  margin-bottom: 22px;
+  margin-left: 50%;
 }
 
-p {
-    font-size: 1.5em;
+img {
+  width: auto;
+  height: 250px;
 }
 
-span a {
-    color: black;
-    text-decoration: none;
+.bottomScreen {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: row;
 }
 
-a.nav-link {
-    font-size: 1em;
-    color: inherit;
-    text-align: center;
-    text-decoration: none;
-    padding-block-end: 1em;
-    border: 0.1em solid black;
+.caughtContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}/*# sourceMappingURL=style.css.map */d-color: rgb(35, 65, 217);
 }
 
-div.pp a 
-{
-    padding: 0.3em;
-    text-decoration: none;
-    margin-inline-end: 3px;
-    margin-block-start: 1px;
-    border: 1px groove grey;
+#html h2 {
+  background-color: rgb(117, 217, 35);
 }
 
-div span {
-    margin: 0.3em;
+#html a {
+  color: rgb(133, 82, 65);
 }
 
-div nav 
-{
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    block-size: 13em;
-    inline-size: 13em;
-
+#css h2 {
+  background-color: rgb(217, 80, 35);
 }
 
-nav div h2.h2 
-{
-    top: 25vh;
-    right: 88vh;
-    position: absolute;
+#css a:link {
+  color: rgb(59, 64, 89);
 }
 
-div.lor {
-    display: grid;
-    column-gap: 2em;
-    grid-template-columns: 33% 33% 33%;
-
+#js h2 {
+  background-color: rgb(59, 64, 89);
 }
 
-div.lor ul {
-    list-style-type: none; 
+#js a {
+  color: rgb(217, 80, 35);
 }
 
-div.lor li {
-    margin: 0.3em 0; 
+#structure h2 {
+  background-color: rgb(35, 65, 217);
 }
 
-img 
-{
-    block-size: 100%;
-    inline-size: 54vh;
-    border-radius: 12%;
-}
-
-.grid-container {
-    display: grid;
-    column-gap: 15em;
-    margin: 1em auto;
-    grid-template-columns: 33% 33%;
-    
-}
-#expertise .grid-container {
-    column-gap: 0;
-    grid-template-columns: 16em 16em 16em;
-    
-}
-
-.py, .js, .db, .c, .cplus, .shark, .up{
-    bottom: 2vh;
-    right: 2vh;
-    font-size: 2em;
-    inline-size: 1em;
-    position: relative;
-    display: inline-block;
-    margin-inline-start: 0.09em;
-}
-.py span {
-    margin: 0.3;
-    font-size: 1em;
-}
-
-.wrapper-container
-{
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 1.5em;
-    align-items: stretch;
-    max-inline-size: 100%;
-}
-
-h3 {
-    display: inherit;
-
-}
-div.siztion {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    inline-size: 100%;
-    align-items: stretch;
-    justify-content: space-between;
-    background-color: rgb(51, 117, 173);
-}
-div.btn
-{
-    padding: 1em;
-    cursor: pointer;
-    font-size: 1em;
-    font-weight: bold;
-    inline-size: 77.7vh;
-    justify-content: space-around;
-    border: 1px groove black;
-}
-
-div.btn:hover {
-    background-color: rgb(50, 117, 173);
-}
+#structure div {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
