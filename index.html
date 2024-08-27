@@ -12,6 +12,7 @@
         <link rel='stylesheet' href='static/style.css'>
         <link rel='stylesheet' href='static/profile.css'>
         <link rel='stylesheet' href='static/btrapicons.css'>
+        <link rel='stylesheet' href='static/expertise.css'>
 
         <title>krigjo25 | Home</title>
     </head>
@@ -75,6 +76,45 @@
                 <h2>Specialization</h2>
                 <div class="siztion">
                     <div class="btn bi-getacademy" onclick="specialization(this)">GetAcademy</div>
+                    <h3>Start IT</h3>
+                    <ul>
+                        <li>Grunnleggende Programmering</li>
+                        <ul>
+                            <a href='#'>
+                                <span>JavaScript</span>
+                            </a>
+                            <a href='#'>
+                                <span>Github</span>
+                            </a>
+                            <a href='#'>
+                                <span>Collebrations</span>
+                            </a>
+                        </ul>
+                        <li>IT Utvikling</li>
+                        <ul>
+                            <a href='#'>
+                                <span>Collebrations</span>
+                            </a>
+                            <a href='#'>
+                                <span>Agile</span>
+                            </a>
+                        </ul>
+                        <li>OOP With C#</li>
+                        <ul>
+                            <a href='#'>
+                                <span>OOP</span>
+                            </a>
+                            <a href='#'>
+                                <span>Collebrations</span>
+                            </a>
+                            <a href='#'>
+                                <span>Agile</span>
+                            </a>
+                            <a href='#'>
+                                <span>SQL</span>
+                            </a>
+                        </ul>
+                    </ul>
                     <div class="btn bi-harvardx" onclick="specialization(this)">HarvardX</div>
                 </div>
                 <div id="siztion-item">
@@ -82,29 +122,62 @@
             </section> 
             <section id='full-stack'>
                 <h2>Full-Stack Solutions</h2>
+                <form>
+                    <label for="title">File type</label>
+                    <label for="filetype">Sort by</label>
+                    <select id="filetype">
+                        <option value="c">C</option>
+                        <option value="c#">C#</option>
+                        <option value="python">Python</option>
+                        <option value="js">JavaScript</option>    
+                    </select>
+                    <option>
+                        <section></section>
+                    </option>
+                    <label for="title">accending or decending</label>
+                </form>
+                <i class="bi bi-arrow-right-circle-fill"></i>
+                <p>Showing Python | Flask Projects</p>
                 <div class="siztion">
-                    <div class="bi-js btn" onclick=''>JS <i class="bi bi-arrow-right-circle-fill"></i></div>
-                    <div class="bi-c btn" onclick=''>C <i class="bi bi-arrow-right-circle-fill"></i></div>
-                    <div class="bi-c+ btn" onclick=''>C++ <i class="bi bi-arrow-right-circle-fill"></i></div>
-                    <div class="bi-c# btn" onclick=''>C# <i class="bi bi-arrow-right-circle-fill"></i></div>
-                    <div class="bi-python btn" onclick=''>Python <i class="bi bi-arrow-right-circle-fill"></i></div>
-                    <div class="bi-db btn" onclick=''>Database <i class="bi bi-arrow-right-circle-fill"></i></div>
-            </section>     
+
+                    <nav class="pp">
+                        <a href="#">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <span>Project Name</span>
+                    </nav>
+                </div>
+            </section>
         </main>
-        <script>    
-            //  HTML Validator FROM W3C validation services
-            //  Adapted from https://stackoverflow.com/a/10162353
-            document.addEventListener('DOMContentLoaded', function() {
-                const html = '<!DOCTYPE ' + document.doctype.name +
-                    (document.doctype.publicId ? ' PUBLIC "' + document.doctype.publicId + '"' : '') +
-                    (!document.doctype.publicId && document.doctype.systemId ? ' SYSTEM' : '') +
-                    (document.doctype.systemId ? ' "' + document.doctype.systemId + '"' : '') +
-                    '>\n' + document.documentElement.outerHTML;
 
-                //  Checks for HTML validations
-                document.querySelector('form[action="https://validator.w3.org/check"] > input[name="fragment"]').value = html;
+        <footer class="mb-5">
+            <form action="/contact">
 
-                });
-        </script>
+            </form>
+            <form action="https://validator.w3.org/check" class="text-center" enctype="multipart/form-data" method="post" target="_blank">
+                <!-- https://validator.w3.org/ -->
+                <input name="doctype" type="hidden" value="HTML5">
+                <input name="fragment" type="hidden">
+                <input alt="Validate" src="lib/img/I_heart_validator.png" type="image"> 
+            </form>
+            <script>    
+                //  HTML Validator FROM W3C validation services
+                //  Adapted from https://stackoverflow.com/a/10162353
+                document.addEventListener('DOMContentLoaded', function() {
+                    const html = '<!DOCTYPE ' + document.doctype.name +
+                        (document.doctype.publicId ? ' PUBLIC "' + document.doctype.publicId + '"' : '') +
+                        (!document.doctype.publicId && document.doctype.systemId ? ' SYSTEM' : '') +
+                        (document.doctype.systemId ? ' "' + document.doctype.systemId + '"' : '') +
+                        '>\n' + document.documentElement.outerHTML;
+    
+                    //  Checks for HTML validations
+                    document.querySelector('form[action="https://validator.w3.org/check"] > input[name="fragment"]').value = html;
+    
+                    });
+            </script>
+        </footer>
     </body>
 </html>
