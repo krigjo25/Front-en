@@ -1,19 +1,22 @@
 
 %item-style 
     padding: 1vh
-    background-color: rgba(218, 218, 218, 1)
+    background-color: #df3838
 
 %block-style
     margin: 1vh
     cursor: pointer
     inline-size: 20em
     border: 1px solid rgba(0,0,0,1)
+    background-color: #43466e
 
     h2
         user-select: none
         text-align: center
         color: rgb(254, 254, 254)
 
+body
+    color: rgb(64, 64, 64)
 nav
     .menu
 
@@ -25,7 +28,7 @@ div
     .item
 
     margin: 0px
-    background-color: rgba(218, 218, 218, 1)
+    background-color: rgb(150, 185, 227)
 
 .item   
     ul
@@ -33,7 +36,7 @@ div
 
 #tools-container
     @extend %block-style
-    background-color: rgba(35, 65, 217,1)
+    color : #d4d4d4
 
     .tools-item
         @extend %item-style
@@ -71,29 +74,3 @@ div
 
     .structure-item
         @extend %item-style
-
-
-.normal
-    margin: 0
-    padding: 1em
-    font-size: 1em
-    display: block
-    cursor: pointer
-    color:rgba(255, 255, 255, 1)-
-
-.vertical
-    display: block
-    margin: 1em auto
-    inline-size: 59vh
-
-.horizontal
-    display: flex
-    justify-content: center
-
-.grid-container
-    display: grid
-    margin: 1em
-    inline-size: 100%
-    grid-column-gap: 1em
-    grid-template-rows: 2fr
-    grid-template-columns: 20em 20em
