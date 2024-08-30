@@ -1,0 +1,10 @@
+#stop-watch p {
+  display: inline-flex;
+}
+
+button {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}/*# sourceMappingURL=style.css.map */
