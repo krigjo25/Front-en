@@ -32,53 +32,23 @@
             <h1>SmartEngine</h1>
         </header>
         <main>
-        <form id="search-form" action="https://www.google.com/search" method="GET">
-            <input id="search-bar" class="search-bar" type="text" name="q" placeholder="Search..">
-            <input id="search-bar" class="search-bar" type="text" name="q" placeholder="Search..">
-            <input id="search-bar" class="search-bar" type="text" name="q" placeholder="Search..">
-            <input id="search-bar" class="search-bar" type="text" name="q" placeholder="Search..">
-            <input id="search-bar" class="search-bar" type="text" name="q" placeholder="Search..">
-            <input id="search-bar" class="search-bar" type="text" name="q" placeholder="Search..">
-            <select></select>
-            <select></select>
-            <select>
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
+        <form id="search-form" action="https://www.google.com/search" method="GET" name="f">
+            Find pages with… 
+            <div>
+                <label for="atw">all these words:</label>
             
-            </select>
-            <input id="search-bar" class="search-bar" type="text" name="q" placeholder="Search..">
-            <select>
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
-            </select>
-            <select>
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
-            </select>
-            <select>
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>
-                <option></option>  
-            </select>
+                <input id="atw" class="jfk-textinput" type="text" name="as_q" placeholder="Search..">
 
-            
-            
+                <label for="tewop">this exact word or phrase:</label>
+                <input id="tewop" class="jfk-textinput" type="text" name="as_epq" placeholder="Search..">
+
+                <label for="aotw">any of these words</label>
+                <input id="aotw" class="jfk-textinput" type="text" name="as_oq" placeholder="Search..">
+
+                <label for="notw">none of these words:</label>
+                <input id="notw" class="jfk-textinput" type="text" name="as_eq" placeholder="Search..">
+
+            </div>
             <div>
                 <input type="submit" value="Advanced Search">
             </div>
