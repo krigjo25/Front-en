@@ -133,8 +133,18 @@ main form.frm-grid .input-btn {
   text-align: end;
 }
 main form.frm-grid .submit-btn {
-  padding: 1vw;
-  background-color: rgb(66, 103, 210);
+  font: 1vw;
+  border: none;
+  cursor: pointer;
+  padding: 0.3vw;
+  color: rgb(250, 250, 250);
+  border: 1px solid rgb(77, 144, 254);
+  background-color: rgb(77, 144, 254);
+}
+main form.frm-grid .submit-btn:active {
+  border: 1px solid rgb(47, 91, 183);
+  background-color: rgb(53, 122, 232);
+  background-image: linear-gradient(top, #4d90fe, #357ae8);
 }
 
 .image-flex {
