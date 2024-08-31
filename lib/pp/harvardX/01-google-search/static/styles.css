@@ -1,5 +1,5 @@
 /*Google Brand Colors Adapted from https://partnermarketinghub.withgoogle.com/brands/google-news/visual-identity/color-palette/*/
-header div, header div.lflex a {
+main form.frm-flex, main form.as-form div.input-btn, main form#search-form div.input-container, header div, header div.lflex a {
   display: flex;
   flex-wrap: wrap;
 }
@@ -59,14 +59,12 @@ header div span.google-l {
 header div span.google-e {
   color: rgb(234, 67, 53);
 }
-header span {
+header span.as {
   font-size: 2vw;
   color: rgb(234, 67, 53);
 }
 
 main form#search-form div.input-container {
-  display: flex;
-  flex-wrap: wrap;
   align-items: center;
   flex-direction: column;
 }
@@ -95,49 +93,47 @@ main form#search-form div.input-container div i {
 }
 main form#search-form div.input-container input[type=text].search-bar {
   margin: 1em;
-  inline-size: 42vw;
+  block-size: 1vw;
+  inline-size: 17vw;
   border-radius: 2em;
-  padding-inline: 2vw;
   padding-block: 1.3vh;
+  padding-inline-end: 4vw;
+  padding-inline-start: 2vw;
   border: 1px solid rgb(154, 160, 166);
 }
 main form#search-form input[type=text].search-bar:hover {
-  box-shadow: rgb(154, 160, 166) 0px 3px 10px 0px;
+  box-shadow: rgb(154, 160, 166) 0px 3px 8px 0px;
 }
 main form#search-form input[type=text].search-bar:focus-visible {
   outline: -webkit-focus-ring-color auto 0px;
 }
-main form#search-form input[type=text].jfk-textinput {
-  block-size: 1em;
-  inline-size: 100%;
-}
-main form#search-form p {
-  margin: 0;
-  text-align: left;
-}
-main form#search-form div label.lbl-flex {
-  display: flex;
-  padding-inline-start: 3vw;
-  justify-content: flex-start;
-}
-main form.frm-flex {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-main form.frm-lbl {
-  padding: 1em;
-  text-align: left;
-}
-main form.frm-grid {
+main form.as-form {
   grid-gap: 1em;
   display: grid;
   grid-template-columns: 14vw 25vw 24vw;
 }
-main form.frm-grid .input-btn {
-  text-align: end;
+main form.as-form div label.lbl-flex {
+  display: flex;
+  padding-inline-start: 3vw;
+  justify-content: flex-start;
 }
-main form.frm-grid .submit-btn {
+main form.as-form div p {
+  margin: 0;
+  text-align: left;
+}
+main form.as-form input[type=text].as-tit {
+  block-size: 1.1vw;
+  inline-size: 100%;
+  outline-color: rgb(154, 160, 166);
+}
+main form.as-form input[type=text].as-tit:focus-visible {
+  outline-color: rgb(77, 144, 254);
+  outline-width: 0.5px;
+}
+main form.as-form div.input-btn {
+  justify-content: flex-end;
+}
+main form.as-form button.submit-btn {
   font: 1vw;
   border: none;
   cursor: pointer;
@@ -146,10 +142,20 @@ main form.frm-grid .submit-btn {
   border: 1px solid rgb(77, 144, 254);
   background-color: rgb(77, 144, 254);
 }
-main form.frm-grid .submit-btn:active {
+main form.as-form button.submit-btn:active {
   border: 1px solid rgb(47, 91, 183);
   background-color: rgb(53, 122, 232);
   background-image: linear-gradient(top, #4d90fe, #357ae8);
+}
+main form.frm-flex {
+  flex-direction: column;
+}
+main form.frm-lbl {
+  padding: 1em;
+  text-align: left;
+}
+main form.frm-lbl .input-btn {
+  text-align: end;
 }
 
 .image-flex {

@@ -1,0 +1,191 @@
+/*Google Brand Colors Adapted from https://partnermarketinghub.withgoogle.com/brands/google-news/visual-identity/color-palette/*/
+$google-red: rgb(234, 67, 53)
+$google-blue: rgb(23, 78, 166)
+$google-btn-blue: rgb(77, 144, 254)
+$google-green: rgb(52, 168, 83)
+$google-grey: rgb(154, 160, 166)
+$google-yellow: rgb(251, 188, 4)
+
+
+%flex-wrap
+        display: flex
+        flex-wrap: wrap
+
+header
+
+    nav
+        margin: 2vw 2vw
+        display: flex
+        justify-content: flex-end
+
+        div.nav-link
+            justify-content: flex-end
+            padding-inline-start: 1vw
+            display: inline-block
+
+    div.lflex
+        justify-content: space-between
+
+        a
+            @extend %flex-wrap
+            text-decoration: none
+            justify-content: space-between
+
+            span.google-g
+                color: $google-blue
+
+            span.google-o:nth-child(odd)
+                color: $google-red
+
+            span.google-o:nth-child(even)
+                color: $google-yellow
+
+            span.google-l
+                color: $google-green
+
+            span.google-e
+                color: $google-red  
+    
+  
+    div
+        @extend %flex-wrap
+        justify-content: center
+
+        a
+            display: flex
+            text-decoration: none
+            justify-content: center
+
+        span.google-g
+            color: $google-blue
+
+        span.google-o:nth-child(odd)
+            color: $google-red
+
+        span.google-o:nth-child(even)
+            color: $google-yellow
+
+        span.google-l
+            color: $google-green
+
+        span.google-e
+            color: $google-red  
+
+    
+    span.as
+        font-size: 2vw
+        color: $google-red
+main
+
+    form#search-form 
+
+        div.input-container
+            @extend %flex-wrap
+            align-items: center
+            flex-direction: column
+
+            div
+                .google-btn
+                    border: none
+                    padding: 0.6vw
+                    cursor: pointer
+                    border-radius: 6px
+                    background-color: rgb(241, 243, 244)
+                
+                .google-btn:hover
+                    border: 1px solid $google-grey
+                    box-shadow: $google-grey 0px 1px 2px 0px
+
+                .google-btn:focus
+                    border: 1px solid rgb(66, 133, 244)
+                    
+                i
+                    left: 3vw
+                    top: 0.2vw
+                    z-index: 1
+                    padding: 10px
+                    font-size: 1vw
+                    position: relative
+                    color: rgba(221, 221, 221, 0.8666666667)
+
+            input[type=text].search-bar
+
+                margin: 1em
+                block-size: 1vw
+                inline-size: 17vw
+                border-radius: 2em
+                padding-block: 1.3vh
+                padding-inline-end: 4vw
+                padding-inline-start: 2vw
+                border: 1px solid $google-grey
+
+        input[type=text].search-bar:hover
+            box-shadow: $google-grey  0px 3px 8px 0px
+
+        input[type=text].search-bar:focus-visible
+            outline: -webkit-focus-ring-color auto 0px
+
+    form.as-form
+        grid-gap: 1em
+        display: grid
+        grid-template-columns: 14vw 25vw 24vw
+
+        div
+            label.lbl-flex
+                display: flex
+                padding-inline-start: 3vw
+                justify-content: flex-start
+            p
+                margin: 0
+                text-align: left
+
+    
+        input[type=text].as-tit
+            block-size: 1.1vw
+            inline-size: 100%
+            outline-color: $google-grey
+
+        input[type=text].as-tit:focus-visible
+            outline-color: $google-btn-blue
+            outline-width: 0.5px
+
+        div.input-btn
+            @extend %flex-wrap
+            justify-content: flex-end
+
+        button.submit-btn
+                font: 1vw
+                border: none
+                cursor: pointer
+                padding: 0.3vw
+                color: rgb(250, 250, 250)
+                border: 1px solid $google-btn-blue
+                background-color: $google-btn-blue
+
+        button.submit-btn:active
+                border: 1px solid rgb(47, 91, 183)
+                background-color: rgb(53, 122, 232)
+                background-image: -webkit-gradient(linear, left top, left bottom, from(#4d90fe), to(#357ae8))
+                background-image: -webkit-linear-gradient(top, #4d90fe, #357ae8)
+                background-image: -moz-linear-gradient(top, #4d90fe, #357ae8)
+                background-image: -ms-linear-gradient(top, #4d90fe, #357ae8)
+                background-image: -o-linear-gradient(top, #4d90fe, #357ae8)
+                background-image: linear-gradient(top, #4d90fe, #357ae8)
+
+    form.frm-flex
+        @extend %flex-wrap
+        flex-direction: column
+
+    form.frm-lbl
+        padding: 1em
+        text-align: left
+
+        .input-btn
+            text-align: end
+
+            
+
+.image-flex
+    display: inherit
+    align-items: flex-end
+
