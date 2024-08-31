@@ -59,6 +59,10 @@ header div span.google-l {
 header div span.google-e {
   color: rgb(234, 67, 53);
 }
+header span {
+  font-size: 2vw;
+  color: rgb(234, 67, 53);
+}
 
 main form#search-form div.input-container {
   display: flex;
@@ -104,6 +108,7 @@ main form#search-form input[type=text].search-bar:focus-visible {
   outline: -webkit-focus-ring-color auto 0px;
 }
 main form#search-form input[type=text].jfk-textinput {
+  block-size: 1em;
   inline-size: 100%;
 }
 main form#search-form p {
