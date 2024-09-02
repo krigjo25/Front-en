@@ -1,48 +1,31 @@
-$red: red
-$blue: blue
-$green: green
+body 
+    margin: auto 3em
 
-%width-height
-    block-size: 1em
-    inline-size: 1em
+    main
+        block-size: 100%
+        inline-size: 100%
+        nav
+            div 
+                display: inline-block
+                margin-inline-start: 1em
 
-%border-radius
-    border-radius: 10em
-.item 
-    ul
-        margin:0
+    ul.nav-bar
+        display: grid
+        block-size: 100%
+        list-style: none
+        grid-template-rows: 1fr
+        grid-template-columns: 1fr 1fr
 
-.r
-    @extend %width-height
-    @extend %border-radius
-    border: 1px solid $red
-    background-color: $red
-.g
-    @extend %width-height
-    @extend %border-radius
-    border: 1px solid$green
-    background-color: $green
-.b
-    @extend %width-height
-    @extend %border-radius
-    border: 1px solid $blue
-    background-color: $blue
 
-input[type=text]
-    @extend %width-height
-
-section 
-    display: inline-flex
-    flex-direction: column
-
-div
-    inline-size: 70vh
-
-div
-    .keyboard-item 
-        .interval
-            inline-size:154vh
-
-#stop-watch 
-    p
-        display: inline-flex
+    a.nav-link
+        padding: 1em
+        margin: 0.25em
+        font-size: 1em
+        color: inherit
+        inline-size: 100%
+        text-align: center
+        text-decoration: none
+        padding-block-end: 2em
+        margin-inline-start: 1em
+        background-color: white
+        border: 0.1em solid black
