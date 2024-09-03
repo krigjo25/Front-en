@@ -1,0 +1,54 @@
+
+%link-style
+    color : rgb(254, 254, 254)
+    text-decoration: none
+    background-color: #a1bfc9
+
+    
+div.profile-item
+    font-size: 1.29em
+
+.pf 
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+    flex-direction: column
+
+.nav-bar 
+    flex-wrap: wrap
+    display: inherit
+    justify-content: center
+    align-content: space-around
+    justify-content: space-between
+    border-bottom: 1px groove black
+
+    span 
+        padding: 1vw
+        font-size: 5vw
+
+.btn-links
+    
+    font-size: 4vh
+    margin-inline:1em
+    inline-size: 40vh
+    text-align: center
+    border-radius: 1vh
+    background-color: #3c4bab
+
+    a:link
+        @extend %link-style
+
+    a:active
+    background-color: rgb(179, 193, 211)
+
+    a:visited
+        @extend %link-style
+
+
+
+img
+    inline-size: 22vw
+.btn-links:hover
+    background-color: #626ebb
+
+    

@@ -1,0 +1,44 @@
+
+// Style block    
+%block-style
+    display: flex
+    padding: 1em
+    flex-wrap: wrap
+    margin: 1em auto
+    flex-direction: column
+
+header
+    @extend %block-style
+
+
+main
+    article
+
+        div.img-container
+            inline-size: 100%
+            block-size: 25vw
+section
+    @extend %block-style
+
+section:nth-child(even)
+    background-color: rgb(254, 254, 254)
+
+section:nth-child(odd)
+    background-color: rgba(231,234,253, 0.2)
+
+
+footer
+    @extend %block-style
+
+nav
+    margin: auto
+    flex-wrap: wrap
+    display: inherit
+    flex-direction: row
+    align-items: flex-start
+
+    h3
+        margin-block: 3vh
+
+body
+    color: rgb(64, 64, 64)

@@ -1,0 +1,158 @@
+/*Google Brand Colors Adapted from https://partnermarketinghub.withgoogle.com/brands/google-news/visual-identity/color-palette/*/
+header div, header div.lflex a {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header nav {
+  margin: 2vw 2vw;
+  display: flex;
+  justify-content: flex-end;
+}
+header nav div.nav-link {
+  justify-content: flex-end;
+  padding-inline-start: 1vw;
+  display: inline-block;
+}
+header div.lflex {
+  justify-content: space-between;
+}
+header div.lflex a {
+  text-decoration: none;
+  justify-content: space-between;
+}
+header div.lflex a span.google-g {
+  color: rgb(23, 78, 166);
+}
+header div.lflex a span.google-o:nth-child(odd) {
+  color: rgb(234, 67, 53);
+}
+header div.lflex a span.google-o:nth-child(even) {
+  color: rgb(251, 188, 4);
+}
+header div.lflex a span.google-l {
+  color: rgb(52, 168, 83);
+}
+header div.lflex a span.google-e {
+  color: rgb(234, 67, 53);
+}
+header div {
+  justify-content: center;
+}
+header div a {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+}
+header div span.google-g {
+  color: rgb(23, 78, 166);
+}
+header div span.google-o:nth-child(odd) {
+  color: rgb(234, 67, 53);
+}
+header div span.google-o:nth-child(even) {
+  color: rgb(251, 188, 4);
+}
+header div span.google-l {
+  color: rgb(52, 168, 83);
+}
+header div span.google-e {
+  color: rgb(234, 67, 53);
+}
+header span.as {
+  font-size: 2vw;
+  color: rgb(234, 67, 53);
+}
+
+main form#search-form div.input-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+main form#search-form div.input-container div .google-btn {
+  border: none;
+  padding: 0.6vw;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: rgb(241, 243, 244);
+}
+main form#search-form div.input-container div .google-btn:hover {
+  border: 1px solid rgb(154, 160, 166);
+  box-shadow: rgb(154, 160, 166) 0px 1px 2px 0px;
+}
+main form#search-form div.input-container div .google-btn:focus {
+  border: 1px solid rgb(66, 133, 244);
+}
+main form#search-form div.input-container div i {
+  left: 3vw;
+  top: 0.2vw;
+  z-index: 1;
+  padding: 10px;
+  font-size: 1vw;
+  position: relative;
+  color: rgba(221, 221, 221, 0.8666666667);
+}
+main form#search-form div.input-container input[type=text].search-bar {
+  margin: 1em;
+  inline-size: 42vw;
+  border-radius: 2em;
+  padding-inline: 2vw;
+  padding-block: 1.3vh;
+  border: 1px solid rgb(154, 160, 166);
+}
+main form#search-form input[type=text].search-bar:hover {
+  box-shadow: rgb(154, 160, 166) 0px 3px 10px 0px;
+}
+main form#search-form input[type=text].search-bar:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+main form.as-form {
+  grid-gap: 1em;
+  display: grid;
+  grid-template-columns: 14vw 25vw 24vw;
+}
+main div label.lbl-flex {
+  display: flex;
+  padding-inline-start: 3vw;
+  justify-content: flex-start;
+}
+main p {
+  margin: 0;
+  text-align: left;
+}
+main input[type=text].as-tit {
+  block-size: 1em;
+  inline-size: 100%;
+}
+main form.frm-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+main form.frm-lbl {
+  padding: 1em;
+  text-align: left;
+}
+main form.frm-lbl .input-btn {
+  text-align: end;
+}
+main form.frm-lbl .submit-btn {
+  font: 1vw;
+  border: none;
+  cursor: pointer;
+  padding: 0.3vw;
+  color: rgb(250, 250, 250);
+  border: 1px solid rgb(77, 144, 254);
+  background-color: rgb(77, 144, 254);
+}
+main form.frm-lbl .submit-btn:active {
+  border: 1px solid rgb(47, 91, 183);
+  background-color: rgb(53, 122, 232);
+  background-image: linear-gradient(top, #4d90fe, #357ae8);
+}
+
+.image-flex {
+  display: inherit;
+  align-items: flex-end;
+}/*# sourceMappingURL=styles.css.map */
