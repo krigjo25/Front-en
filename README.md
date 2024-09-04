@@ -16,6 +16,9 @@ Using HTML to structure the skeleton of the HTML website
 Creating the responsive design, beautify the website
 
 ### JavaScript
+
+[Slideshow]
+- During this project a slideshow was created in MVC style.
 #### statistics
 
 cookie tracking, 

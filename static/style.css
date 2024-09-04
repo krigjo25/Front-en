@@ -6,11 +6,6 @@ footer, section, header {
   flex-direction: column;
 }
 
-main article div.img-container {
-  inline-size: 100%;
-  block-size: 25vw;
-}
-
 section:nth-child(even) {
   background-color: rgb(254, 254, 254);
 }

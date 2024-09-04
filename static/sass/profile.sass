@@ -4,30 +4,24 @@
     text-decoration: none
     background-color: #a1bfc9
 
-    
-div.profile-item
-    font-size: 1.29em
-
-.pf 
+%flex
     display: flex
     flex-wrap: wrap
-    align-items: center
-    flex-direction: column
 
-.nav-bar 
-    flex-wrap: wrap
-    display: inherit
-    justify-content: center
-    align-content: space-around
-    justify-content: space-between
-    border-bottom: 1px groove black
+%img-btn
+    
+    opacity: 0.1
+    border: none
+    font-size: 2vw
+    cursor: pointer
+    color: #fefefe
+    background-color: transparent
 
-    span 
-        padding: 1vw
-        font-size: 5vw
+%img-btn-hover
+    opacity: 1
+    
 
 .btn-links
-    
     font-size: 4vh
     margin-inline:1em
     inline-size: 40vh
@@ -45,9 +39,65 @@ div.profile-item
         @extend %link-style
 
 
+main
+    article
 
-img
-    inline-size: 22vw
+        div#carosel
+            img.css-img
+                block-size: 100vh
+            
+            div.caption
+                color: #fefefe
+                z-index: 1
+                bottom: 3vh
+                display: flex
+                justify-content: center
+                position: relative
+
+        
+        div.img-container
+            @extend %flex
+            block-size: 100%
+            inline-size: 100%
+            align-content: center
+            flex-direction: column
+            justify-content: center
+
+            div.img-btn
+
+                z-index: 1
+                bottom: 69vh
+                display: flex
+                cursor: pointer
+                position: relative
+                //@extend %link-style
+                justify-content: space-between
+            
+                button.next-btn
+                    @extend %img-btn
+                
+                button.next-btn:hover
+                    @extend %img-btn-hover
+
+                button.prev-btn
+                    @extend %img-btn
+
+                button.prev-btn:hover
+                    @extend %img-btn-hover
+
+        nav.ext-bar
+            @extend %flex
+            @extend %link-style
+            
+            margin-block-start: 2vh
+            justify-content: center
+            border-bottom: 1px groove black
+        
+            span 
+                padding: 1vw
+                font-size: 5vw
+
+
 .btn-links:hover
     background-color: #626ebb
 
