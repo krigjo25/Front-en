@@ -19,6 +19,7 @@ Creating the responsive design, beautify the website
 
 [Slideshow]
 - During this project a slideshow was created in MVC style.
+-   Created a button for
 #### statistics
 
 cookie tracking, 
