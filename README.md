@@ -25,7 +25,7 @@ Creating the responsive design, beautify the website
 - During this project a slideshow was created in MVC style.
 -  Functions to fetch information was created
 -  Project was re-designed in Object oriented style
--  
+  
 #### statistics
 
 cookie tracking, 
