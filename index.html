@@ -28,18 +28,18 @@
             </a>
             <nav>
                 <a href="#journey">
-                    <div class="btn-links" onclick="textbox()">
+                    <div class="btn-links" onclick="journey()">
                         <h3>The Journey</h3> 
                     </div> 
                 </a>
-                <a href="#present">
-                    <div class="btn-links">
-                        <h3>Personal Profile</h3> 
+                <a href="#profiles">
+                    <div class="btn-links" onclick="profile()">
+                        <h3>Personal & Work Profile</h3> 
                     </div> 
                 </a>
-                <a href="#goals">
-                    <div class="btn-links">
-                        <h3>Goals of life</h3> 
+                <a href="#personal">
+                    <div class="btn-links" onclick="biography()">
+                        <h3>About me</h3> 
                     </div> 
                 </a>
             </nav>
@@ -61,11 +61,6 @@
                     </div>                 
                 </div>
                 <nav class='ext-bar'>
-                    <a href=''>
-                        <span>                           
-                            <i class="bi bi-instagram"></i>
-                        </span>
-                    </a>
                     <a href='#contact-me'>
                         <span>                           
                             <i class="bi bi-mailbox"></i>
@@ -87,7 +82,7 @@
             <section id='expertise'>
                 <h2>Specialization</h2>
                 <div class="siztion">
-                    <div class="btn bi-getacademy" onclick="specialization(this)">GetAcademy</div>
+                    <div class="btn bi-getacademy">GetAcademy</div>
                     <h3>Start IT</h3>
                     <ul>
                         <li>Grunnleggende Programmering</li>
@@ -129,24 +124,21 @@
                     </ul>
                     <div class="btn bi-harvardx" onclick="specialization(this)">HarvardX</div>
                 </div>
-                <div id="siztion-item">
-                </div>
             </section> 
             <section id='full-stack'>
                 <h2>Full-Stack Solutions</h2>
                 <form>
                     <label for="title">File type</label>
-                    <label for="filetype">Sort by</label>
+                    <label for="filetype">Showcases</label>
                     <select id="filetype">
                         <option value="c">C</option>
                         <option value="c#">C#</option>
                         <option value="python">Python</option>
                         <option value="js">JavaScript</option>    
                     </select>
-                    <option>
-                        <section></section>
-                    </option>
+
                     <label for="title">accending or decending</label>
+                    
                 </form>
                 <i class="bi bi-arrow-right-circle-fill"></i>
                 <p>Showing Python | Flask Projects</p>

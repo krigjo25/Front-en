@@ -1,19 +1,21 @@
 Eventyret mitt så langt
 Har hatt en interesse for koding siden tidlig i tenårene,
-meldte meg da meg inn i et samfunn dedikert til koding.
-Lærte mer om basic koding som HTML, CSS følte meg litt
-fram mot JavaScript, men var ikke klar for å ta i mot
-den kunnskapen på det nivået, senere i voksen alder
-begynte reisen med å programmere back-end, valgte å
-fordype meg i Python og databasehåndtering.
+interessen begynte med HTML og CSS. 
+meldte meg da meg inn i et samfunn (sitePoint.com).
+Der jeg fikk mer kunnskap om HTML og CSS og kunne
+føle meg litt fram mot JavaScript, men var ikke
+var ikke klar for å ta i mot den kunnskapen på det 
+nivået, senere i voksen alder begynte reisen med å
+programmere back-end, valgte å fordype meg i Python
+og databasehåndtering. Gjennom discord prosjekter
+lærte jeg mer om strukturen og ble mer og mer nyskjerrig
+på utvikling. Så valgte å dyrke ferdighetene litt mer profesjonelt
 
 
 Nåtid
-I denne perioden er jeg Student på getAcademy,
-tilgjengelig for arbeid under utdanningen.
-Arbeid som jeg holder på med nå gjennom GetAcademy
-Satser stort på at det finnes bedrifter der ute,
-som er villig til å lære opp nye mennesker.
+Akkurat nå studerer jeg på getAcademy,
+CS50 hos harvard og holder på med prosjekter
+i fritiden og ønsker å ta på meg tyngre utfordringer. 
 
 Fremtidig suksesshistorie
 Drømmearbeidsplassen til Kristoffer
@@ -23,7 +25,103 @@ på å arbeide med framfor å arbeide imot.
 Kristoffer drømmer om å bli data scientist
 og starte en familie.
 
+
+Work profile
+
+Generelt
+Gjennom Python prosjektene mine, frontend, C, C# og .NET har jeg fått en solid grunnmur for Programmering
+
+Har hatt Python prosjekt innen for:
+web applikasjons utvikling bruk av Falsk, Django
+Gjennom discord prosjektene mine har jeg fått en forståelse av SQL og bruk av API
+Gjennom Data analyse prosjektene mine har jeg fått kjennskap til både Numpy og pandas.
+
+Gjennom disse prosjektene har jeg fått kjenskap til
+Gjennom frontend prosjektene mine har jeg fått en solid grunnmur for HTML, CSS og JS
+
+Har hatt prosjekt innen for:
+web applikasjons utvikling bruk MVC
+
+Gjennom database prosjektene har jeg fått en solid grunnmur for SQL språket:
+Hospital management system
+library management system
+
+
+Personlig profil
+
+Kjerne språk
+
+
+
+Python
+- Pandas, Numpy beginner level
+- Django, flask intemidate level
+- API
+
+SQL
+- SQLite
+- MariaDB
+
+Andre tekniske språk
+
+JavaScript
+
+-   MVC approach, html manipulasjon, ajax
+
+C
+- holdt på med både data strukturer, minne, terminal, filhåndtering
+
+filiosofi
+- gjennom filiosofi har jeg lært meg å være bevist på valgene mine.
+- gjennom filiosofi har jeg lært meg å være mer tilstede i utfordringene, som har gjort enklere å identifisere ressurser, problemstillinger og hvordan man kan løse dem 
+
+mine Profesjonelle mål
+Senior Data scientist
+
+Hva Andre sier om meg:
+Kollegaer og venner kjenner igjen at jeg er konsistent
+til det som er aktuelt, tar insinativ og er tilstede i øyeblikket,
+som person viser han forståelse for andre, og
+ser alltid etter styrken hos andre og er en god
+ressurs for andre.
+
+Achievements and Accomplishments:
+CS50 profesjonell sertifikat
+
+
+Hva jeg gjør på fritiden:
+utvikler ferdighetene mine i backend programmering og filiosofi, 
+Spiller piano, lytter til musikk og er sosial
+
+
+personlig profil
+
+I'm a dedicated problem-solver with a passion for continuous growth and learning. I thrive in supportive environments and enjoy helping others succeed. My experience caring for my two nephews has instilled in me a strong sense of responsibility and empathy.
+
+With a growth mindset and an internal locus of control, I'm always eager to take on new challenges and explore uncharted territory. I'm driven by curiosity and a desire for personal and professional development.
+
+My goal is to leverage my problem-solving skills and passion for data to pursue a career as a data scientist. I'm excited about the opportunity to contribute to innovative projects and make a meaningful impact.
+
+In addition to my professional aspirations, I'm also passionate about philosophy, coding, and playing the piano. These interests allow me to balance my analytical mind with creative pursuits.
+
+
 Om Kristoffer
+
+Kollegaer / Venner
+Kollegaer og venner kjenner igjen at jeg er konsistent
+til det som er aktuelt, tar insinativ og er tilstede i øyeblikket,
+som person viser han forståelse for andre, og
+ser alltid etter styrken hos andre og er en god
+ressurs for andre.
+
+Personlig informasjon 
+Videre i fritiden min går tiden for det meste til å
+utvikle ferdighetene mine i både python bibliotek,
+database håndtering, piano læring, filosofi og
+styrke både de sidene som er kjent for å være mindre
+sterke og videre utvikle de kjente sterke sidene.
+For å kunne utvikle de sidene så bruker jeg som regel
+et netverk av utviklere, eller nettet.
 
 Familie informasjon
 Har en familie på 4 biologiske søsken, 3 halvsøsken.
@@ -31,25 +129,11 @@ Familien er spredt utover landet fra den kjente og
 gode byen Ålesund helt øst til Indre Østfold og opp
 nord til Trondheim og helt ned sør til Stavanger.
 
-Personlig informasjon
-Det er kjent blant både venner, klassekamerater og
-kollegaer at Kristoffer er dedikert til det som gjøres
-og er tilstede i øyeblikket, som person viser han
-forståelse for andre, og ser alltid etter styrken
-hos andre og Kristoffer bruker det meste av tiden
-sin for øyeblikket til GetAcademy.
-
-Videre i fritiden går tiden for det meste til å
-utvikle ferdighetene sine i både python bibliotek,
-database håndtering,  piano opplæring, filosofi og
-styrke både de sidene som er kjent for å være mindre
-sterke og de sterke.
-
 Bevisste sider
 Kristoffer er bevist på at har en tedens til å forsvare seg selv,
-under press. Kristoffer har en tedens til å være forsiktig,
-ikke på grunn av frykt, men ønsker å være ydmyk oven for andre.
+under press. Kristoffer har en tedens til å være ydmyk over andres erfaringer. 
 Gjennom erfaring med andre skole og arbeidsliv har erfart SÅTE (Samarbeid Åpenhet Tålmodighet og Ærlighet )
+
 
 
 
@@ -79,5 +163,5 @@ Kristoffer brukt mye MariaDB, mest
 fordi at de er fokusert på at koden
 hører til verden og ikke et enkelt
 selskap. Samtidig fyller de det meste
-som er på ønsk
+som er på ønsket
 
