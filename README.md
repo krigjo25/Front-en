@@ -12,6 +12,7 @@ The puropose of this website is to use it as a biography of whom i am,  what's b
 
 ### The Plan
 [WebDevelopment plans no active link]()
+
 ### HTML
 Using HTML to structure the skeleton of the HTML website
 
